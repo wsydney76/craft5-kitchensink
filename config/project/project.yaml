@@ -1,0 +1,19 @@
+dateModified: 1713517097
+email:
+  fromEmail: admin@example.com
+  fromName: 'Craft Bare'
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: 'Craft Bare' # Craft Bare
+    a4f2973e-4934-46f7-af6d-b72af78abade: 'Craft Bare' # Craft Bare
+system:
+  edition: solo
+  live: true
+  name: 'Craft Bare'
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
