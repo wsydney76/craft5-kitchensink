@@ -1,7 +1,7 @@
-dateModified: 1713520271
+dateModified: 1713691244
 email:
   fromEmail: admin@example.com
-  fromName: 'Craft Bare'
+  fromName: 'Craft CMS'
   replyToEmail: null
   template: null
   transportSettings:
@@ -13,12 +13,12 @@ graphql:
     expiryDate: null
 meta:
   __names__:
-    036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: 'Craft Bare' # Craft Bare
-    a4f2973e-4934-46f7-af6d-b72af78abade: 'Craft Bare' # Craft Bare
+    036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: Default # Default
+    a4f2973e-4934-46f7-af6d-b72af78abade: Default # Default
 system:
   edition: solo
   live: true
-  name: 'Craft Bare'
+  name: 'Craft CMS'
   retryDuration: null
   schemaVersion: 5.0.0.20
   timeZone: Europe/Berlin

@@ -1,7 +1,7 @@
 {
-  "name": "blank",
-  "version": "1.0.1",
-  "description": "Blank Craft Starter",
+  "name": "craft-bare",
+  "version": "1.0.0",
+  "description": "Craft Bare",
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./resources/css/app.css -o ./web/assets/dist/app.css --watch",

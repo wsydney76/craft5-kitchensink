@@ -27,15 +27,15 @@ return GeneralConfig::create()
 
     // ---------- Custom settings ----------
 
-    // Don't let revisions pile up
+    // Do not let revisions pile up
     ->maxRevisions(3)
-    // Remove non-ASCII characters from uploaded files
+    // Remove non-ASCII characters from filenames of uploads
     ->convertFilenamesToAscii()
-    // use only ASCII characters for auto-generated slugs
+    // Use only ASCII characters for automatically generated slugs
     ->limitAutoSlugsToAscii()
-    // Don't allow temporary asset URLs
+    // Do not allow temporary asset URLs
     ->generateTransformsBeforePageLoad(true)
-    // Don't serve images with a lower quality
+    // Do not serve transformed images with lower quality
     ->optimizeImageFilesize(false)
     // Append a version hash to asset URLs
     ->revAssetUrls()
