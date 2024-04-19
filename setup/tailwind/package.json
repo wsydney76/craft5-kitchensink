@@ -1,0 +1,19 @@
+{
+  "name": "blank",
+  "version": "1.0.1",
+  "description": "Blank Craft Starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./resources/css/app.css -o ./web/assets/dist/app.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/app.css -o ./web/assets/dist/app.css --minify"
+  },
+  "keywords": [
+    "Craft CMS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "tailwindcss": "^3.4.3"
+  }
+}

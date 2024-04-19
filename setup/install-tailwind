@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cp setup/tailwind/tailwind.config.js . &&
+cp setup/tailwind/package.json . &&
+mkdir resources &&
+mkdir resources/css &&
+cp setup/tailwind/app.css resources/css/app.css &&
+ddev npm install &&
+ddev npm run build &&
+echo Add this to your layout file: &&
+echo '<link href="/assets/dist/app.css" rel="stylesheet">'
