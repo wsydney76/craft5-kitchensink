@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Site Name</title>
+    <link href="{{ url('/assets/dist/app.css') }}" rel="stylesheet">
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+<header class="mb-8 max-w-screen-lg mx-auto pt-8">
+    <nav class="flex items-center justify-between pb-6 px-4">
+        <a class="font-bold text-2xl" href="{{ siteUrl('/') }}">Site Name</a>
+        <ul class="flex space-x-4">
+            <li>
+                <a href="#">Page 1</a>
+            </li>
+            <li>
+                <a href="#">Page 2</a>
+            </li>
+        </ul>
+    </nav>
+
+    <img src="https://picsum.photos/1024/400" alt="Random image" width="1024" height="400">
+
+</header>
+
+<main class="max-w-screen-md mx-auto px-4">
+    <h1 class="font-bold text-3xl mb-8">Page Title</h1>
+
+    <div class="prose prose-lg max-w-none">
+        <p>
+            Aliquam erat volutpat. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam pretium turpis et arcu. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem.
+        </p>
+        <p>
+            Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Donec mollis hendrerit risus. Nulla facilisi. Donec posuere vulputate arcu.
+        </p>
+        <p>
+            Curabitur a felis in nunc fringilla tristique. Vestibulum fringilla pede sit amet augue. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Praesent nec nisl a purus blandit viverra.
+        </p>
+    </div>
+
+</main>
+
+<footer class="mt-8 max-w-screen-lg mx-auto border-t border-gray-500 py-6 px-4">
+    &copy; {{ now|date('Y') }}
+</footer>
+
+</body>
+</html>

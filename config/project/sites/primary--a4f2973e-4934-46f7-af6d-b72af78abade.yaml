@@ -1,9 +1,9 @@
 baseUrl: '@web'
 enabled: true
-handle: default
+handle: primary
 hasUrls: true
 language: en-US
-name: Default
+name: Primary
 primary: true
 siteGroup: 036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a # Default
 sortOrder: 1
