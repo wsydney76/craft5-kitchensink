@@ -6,6 +6,8 @@ the following additions:
 
 * Set system timezone to Europe/Berlin
 * Use neutral names/@web alias for default site/site group
+* Use a single `.env.example` file for all environments
+* Use environment specific config settings to config/general.php, dependent on CRAFT_ENVIRONMENT variable
 * Added more config settings to config/general.php
 * Added modules/_faux to enable autocompletion for some most frequently used variables in twig
 * Added /web/cpresources, /node_modules, /config/license.key to .gitignore

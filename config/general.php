@@ -11,6 +11,9 @@
 use craft\config\GeneralConfig;
 use craft\helpers\App;
 
+$isDev = App::env('CRAFT_ENVIRONMENT') === 'dev';
+$isProd = App::env('CRAFT_ENVIRONMENT') === 'production';
+
 return GeneralConfig::create()
 
     // ---------- From craftcms/craft ----------
@@ -24,6 +27,23 @@ return GeneralConfig::create()
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
 
+    // ---------- Aliases --------------------------------
+
+    ->aliases([
+        // Prevent the @web alias from being set automatically (avoid cache poisoning vulnerability)
+        // Use for site and file system base URLS
+        '@web' => App::env('PRIMARY_SITE_URL'),
+        // Set the @webroot alias so the clear-caches command knows where to find CP resources
+        // Use for file system base path
+        '@webroot' => App::env('CRAFT_WEB_ROOT'),
+    ])
+
+    // ---------- Environment specific settings ----------
+
+    ->devMode($isDev)
+    ->allowAdminChanges($isDev)
+    ->disallowRobots(!$isProd)
+    ->enableTemplateCaching($isProd)
 
     // ---------- Custom settings ----------
 
@@ -38,10 +58,4 @@ return GeneralConfig::create()
     // Do not serve transformed images with lower quality
     ->optimizeImageFilesize(false)
     // Append a version hash to asset URLs
-    ->revAssetUrls()
-    ->aliases([
-        // Prevent the @web alias from being set automatically (avoid cache poisoning vulnerability)
-        '@web' => App::env('PRIMARY_SITE_URL'),
-        // Set the @webroot alias so the clear-caches command knows where to find CP resources
-        '@webroot' => App::env('CRAFT_WEB_ROOT'),
-    ]);
+    ->revAssetUrls();
