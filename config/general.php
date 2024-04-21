@@ -43,5 +43,5 @@ return GeneralConfig::create()
         // Prevent the @web alias from being set automatically (avoid cache poisoning vulnerability)
         '@web' => App::env('PRIMARY_SITE_URL'),
         // Set the @webroot alias so the clear-caches command knows where to find CP resources
-        '@webroot' => dirname(__DIR__) . '/web',
+        '@webroot' => App::env('CRAFT_WEB_ROOT'),
     ]);

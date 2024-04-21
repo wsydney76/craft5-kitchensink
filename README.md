@@ -25,6 +25,7 @@ the following additions:
 * Prepare web server and database according to Craft CMS requirements
 * Run `composer install`
 * Run `./craft setup`
+* Make sure `PRIMARY_SITE_URL` and `CRAFT_WEB_ROOT` are set correctly in `.env` file
 
 ## Install Tailwind CSS (optional)
 
