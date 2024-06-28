@@ -331,16 +331,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.2.3",
+            "version": "5.2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "b024ed46ab876900feb4b85589ccddbe1c00658e"
+                "reference": "4679c14bc529071fb8214d1dacb537e76a3a0a01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/b024ed46ab876900feb4b85589ccddbe1c00658e",
-                "reference": "b024ed46ab876900feb4b85589ccddbe1c00658e",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/4679c14bc529071fb8214d1dacb537e76a3a0a01",
+                "reference": "4679c14bc529071fb8214d1dacb537e76a3a0a01",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-06-20T21:17:40+00:00"
+            "time": "2024-06-27T23:31:54+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -1530,16 +1530,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.13",
+            "version": "v10.48.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "994cedcd2060b65918efe46da805ac31b0563034"
+                "reference": "37c863cffb345869dd134eff8e646bc82a19cc96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/994cedcd2060b65918efe46da805ac31b0563034",
-                "reference": "994cedcd2060b65918efe46da805ac31b0563034",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/37c863cffb345869dd134eff8e646bc82a19cc96",
+                "reference": "37c863cffb345869dd134eff8e646bc82a19cc96",
                 "shasum": ""
             },
             "require": {
@@ -1581,11 +1581,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-06-04T13:31:47+00:00"
+            "time": "2024-06-19T14:25:05+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.13",
+            "version": "v10.48.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -1631,7 +1631,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.13",
+            "version": "v10.48.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1679,7 +1679,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.13",
+            "version": "v10.48.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
