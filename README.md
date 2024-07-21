@@ -1,4 +1,4 @@
-# Craft 5 Bare Bones Starter
+# Craft 5 Basic Starter
 
 This is a pure Craft CMS starter as provided in the craftcms/craft package with 
 the following additions:

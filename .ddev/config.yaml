@@ -1,4 +1,4 @@
-name: craft5-bare
+name: craft5-basic
 type: craftcms
 docroot: web
 php_version: "8.2"

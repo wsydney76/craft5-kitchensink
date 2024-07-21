@@ -8,4 +8,4 @@ cp setup/tailwind/app.css resources/css/app.css &&
 ddev npm install &&
 ddev npm run build &&
 echo Add this to your layout file: &&
-echo '<link href="/assets/dist/app.css" rel="stylesheet">'
+echo '<link href="/dist/assets/app.css" rel="stylesheet">'
