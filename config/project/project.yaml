@@ -1,4 +1,4 @@
-dateModified: 1718955654
+dateModified: 1723014196
 email:
   fromEmail: admin@example.com
   fromName: 'Craft CMS'
@@ -20,5 +20,5 @@ system:
   live: true
   name: 'Craft CMS'
   retryDuration: null
-  schemaVersion: 5.0.0.21
+  schemaVersion: 5.3.0.2
   timeZone: Europe/Berlin
