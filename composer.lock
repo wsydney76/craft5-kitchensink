@@ -331,16 +331,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.3.0.3",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "4542d22c4fadcc941a182b9d0aa423c37978716f"
+                "reference": "215a98e93a15c1e7537f42e19815d763b715d0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/4542d22c4fadcc941a182b9d0aa423c37978716f",
-                "reference": "4542d22c4fadcc941a182b9d0aa423c37978716f",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/215a98e93a15c1e7537f42e19815d763b715d0ee",
+                "reference": "215a98e93a15c1e7537f42e19815d763b715d0ee",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +453,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-08-06T21:34:36+00:00"
+            "time": "2024-08-07T17:44:10+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -7359,20 +7359,20 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.4",
+            "version": "v4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218"
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
-                "reference": "d3ad0aa3b9f934602cb3e3902ebccf10be34d218",
+                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.4"
+                "php": "8.0 - 8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -7439,9 +7439,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.4"
+                "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
-            "time": "2024-01-17T16:50:36+00:00"
+            "time": "2024-08-07T15:39:19+00:00"
         },
         {
             "name": "nikic/php-parser",
