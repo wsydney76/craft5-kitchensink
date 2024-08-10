@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ddev composer require wsydney76/extras &&
+ddev craft plugin/install _extras

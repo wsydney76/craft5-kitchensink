@@ -14,6 +14,7 @@ the following additions:
 * Added setup/install for automated installation under ddev, creates a user with user defined username/password.
 * Prepared optional Tailwind installation
 * Added scaffolding example page `setup/examples/page.twig`
+* Prepared for local plugin development and using the `extras` plugin as an example
 
 ## DDEV Installation
 
@@ -35,3 +36,20 @@ the following additions:
 * `cd` into project directory
 * Run `bash setup/install-tailwind`
 
+## Install Extras Plugin (optional)
+
+This project is prepared for local plugin development. The `extras` plugin is used as an example.
+
+* `docker-compose.mounts.yaml` is provided to mount the plugin directory
+* `composer.json` has the necessary additions to use the `extras` local plugins
+* * `minimum-stability` is set to `dev`
+* * `prefer-stable` is set to `true`
+* * `repositories` section is added for the `extras` plugin
+
+Install the `extras` plugin as follows:
+
+* `cd` into project directory
+* Run `bash setup/install-extras`
+* Navigate to the CP settings page and activate the options needed for your project.
+
+For other plugins, add the repository paths `composer.json` accordingly.
