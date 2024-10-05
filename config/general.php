@@ -30,9 +30,6 @@ return GeneralConfig::create()
     // ---------- Aliases --------------------------------
 
     ->aliases([
-        // Prevent the @web alias from being set automatically (avoid cache poisoning vulnerability)
-        // However, it is no longer recommended for use in site and file system URLs, use Environment variables instead
-        '@web' => App::env('PRIMARY_SITE_URL'),
         // Set the @webroot alias so the clear-caches command knows where to find CP resources
         // Use for file system base path
         '@webroot' => App::env('CRAFT_WEB_ROOT'),
