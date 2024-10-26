@@ -12,7 +12,8 @@ the following additions:
 * Added /web/cpresources, /node_modules, /config/license.key to .gitignore
 * Added setup/install for automated installation under ddev, creates a user with user defined username/password.
 * Prepared optional Tailwind installation
-* Added scaffolding example page `setup/examples/page.twig`
+* Added scaffolding example page `templates/examples/page-simplecss.twig`
+* Added scaffolding example page `templates/examples/page-tailwind.twig`
 * Prepared for local plugin development and using the `extras` plugin as an example
 
 ## DDEV Installation
