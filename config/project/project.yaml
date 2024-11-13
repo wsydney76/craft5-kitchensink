@@ -1,4 +1,4 @@
-dateModified: 1728164200
+dateModified: 1731494137
 email:
   fromEmail: admin@example.com
   fromName: 'Craft CMS'
@@ -17,8 +17,8 @@ meta:
     a4f2973e-4934-46f7-af6d-b72af78abade: Primary # Primary
 system:
   edition: solo
-  live: true
+  live: false
   name: 'Craft CMS'
   retryDuration: null
-  schemaVersion: 5.3.0.2
+  schemaVersion: 5.5.0.0
   timeZone: $SYSTEM_TIMEZONE
