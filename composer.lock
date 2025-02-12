@@ -233,11 +233,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.6.5.1",
+            "version": "5.6.6",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/bb960e61bf22f2f8db673dfc34fe3ffcded408f2",
-                "reference": "bb960e61bf22f2f8db673dfc34fe3ffcded408f2",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/bde0a7ff759f497eecf5408cfc065e676b4aa4e5",
+                "reference": "bde0a7ff759f497eecf5408cfc065e676b4aa4e5",
                 "shasum": ""
             },
             "require": {
@@ -337,7 +337,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-02-05T00:29:56+00:00"
+            "time": "2025-02-12T00:10:06+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -377,11 +377,16 @@
         },
         {
             "name": "craftcms/server-check",
-            "version": "5.0.2",
+            "version": "5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/server-check.git",
+                "reference": "08082638f8caff8ab86a223898e8ea167b3f5879"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/server-check/zipball/2c0578a3b0e663402ce5bf752e7308218937fad9",
-                "reference": "2c0578a3b0e663402ce5bf752e7308218937fad9",
+                "url": "https://api.github.com/repos/craftcms/server-check/zipball/08082638f8caff8ab86a223898e8ea167b3f5879",
+                "reference": "08082638f8caff8ab86a223898e8ea167b3f5879",
                 "shasum": ""
             },
             "type": "library",
@@ -390,6 +395,7 @@
                     "server/requirements"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -401,7 +407,15 @@
                 "requirements",
                 "yii2"
             ],
-            "time": "2024-09-16T15:18:27+00:00"
+            "support": {
+                "docs": "https://github.com/craftcms/docs",
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/server-check/issues?state=open",
+                "rss": "https://github.com/craftcms/server-check/releases.atom",
+                "source": "https://github.com/craftcms/server-check"
+            },
+            "time": "2025-02-11T20:26:29+00:00"
         },
         {
             "name": "creocoder/yii2-nested-sets",
