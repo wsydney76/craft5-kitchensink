@@ -13,6 +13,9 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 corepack_enable: false
+hooks:
+  pre-stop:
+    - exec: php /var/www/html/craft db/backup /var/www/html/storage/custom-backups/latest.sql --zip --overwrite
 
 # Key features of DDEV's config.yaml:
 
