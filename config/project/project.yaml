@@ -7,10 +7,6 @@ email:
   transportSettings:
     command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: Default # Default
