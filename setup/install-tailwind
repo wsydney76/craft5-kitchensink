@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cp setup/tailwind/tailwind.config.js . &&
 cp setup/tailwind/package.json . &&
 mkdir resources &&
 mkdir resources/css &&
