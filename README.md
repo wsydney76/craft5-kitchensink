@@ -22,6 +22,8 @@ the following additions:
 * `cd` into project directory
 * Run `bash setup/install <projectname> <username> <password>`
 
+Requires DDEV v1.24.6 +
+
 ## Non-DDEV Installation
 
 * Clone repository

@@ -7,3 +7,4 @@
 /config/license.key
 /templates/test
 /web/dist
+.ddev/.env.web

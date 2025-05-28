@@ -7,7 +7,7 @@ then
 fi
 
 echo Installing project $1...
-
+cp .env.example .env &&
 ddev config --project-name=$1
 ddev start &&
 ddev composer install &&
