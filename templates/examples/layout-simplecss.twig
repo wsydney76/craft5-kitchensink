@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ systemName }}</title>
+    <link rel="stylesheet" href="/examples/simple.css">
+</head>
+<body>
+
+<header>
+    <h1>{{ systemName }}</h1>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ siteUrl }}">Home</a>
+            </li>
+            <li>
+                <a href="#">Page 1</a>
+            </li>
+            <li>
+                <a href="#">Page 2</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    {% block featuredImage %}
+        <img src="https://picsum.photos/1024/400" alt="Random image" width="1024" height="400">
+    {% endblock %}
+
+</header>
+
+<main>
+
+    {% block title %}
+        <h1>{{ entry.title }}</h1>
+    {% endblock %}
+
+    {% block meta %}
+        <div class="notice">
+            Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
+        </div>
+    {% endblock %}
+
+    {% block content %}
+
+    {% endblock %}
+
+</main>
+
+<footer>
+    &copy; {{ now|date('Y') }} <a href="{{ entry.cpEditUrl }}">Edit</a>
+</footer>
+
+</body>
+</html>
