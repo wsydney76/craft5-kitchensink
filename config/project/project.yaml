@@ -1,4 +1,4 @@
-dateModified: 1744751026
+dateModified: 1751207274
 email:
   fromEmail: admin@example.com
   fromName: 'Craft CMS'
@@ -7,10 +7,28 @@ email:
   transportSettings:
     command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  filesFs:
+    hasUrls: true
+    name: 'Files Fs'
+    settings:
+      path: $FILES_FS_ROOT
+    type: craft\fs\Local
+    url: $FILES_FS_URL
+  transformFs:
+    hasUrls: true
+    name: 'Transform Fs'
+    settings:
+      path: $TRANSFORM_FS_ROOT
+    type: craft\fs\Local
+    url: $TRANSFORM_FS_URL
 meta:
   __names__:
+    5ea50ad3-92a6-4e91-b5eb-2acfb721f9e1: Images # Images
     036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: Default # Default
+    78f7142b-23ad-4a02-89f4-7c872ec1266f: 'Single Image' # Single Image
     a4f2973e-4934-46f7-af6d-b72af78abade: Primary # Primary
+    ba23ae2e-677b-4527-9f30-353fb0d50c75: 'Multi Images' # Multi Images
 system:
   edition: solo
   live: true

@@ -15,6 +15,7 @@ the following additions:
 * Added scaffolding example page `templates/examples/page-simplecss.twig`
 * Added scaffolding example page `templates/examples/page-tailwind.twig`
 * Prepared for local plugin development and using the `extras` plugin as an example
+* Added an `images` local volume with supporting filesystems/asset fields for local development
 
 ## DDEV Installation
 
