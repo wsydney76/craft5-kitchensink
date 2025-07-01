@@ -1,4 +1,4 @@
-dateModified: 1751210954
+dateModified: 1751396965
 elementSources:
   craft\elements\Asset:
     -
@@ -52,5 +52,5 @@ system:
   live: true
   name: 'Craft CMS'
   retryDuration: null
-  schemaVersion: 5.7.0.3
+  schemaVersion: 5.8.0.3
   timeZone: $SYSTEM_TIMEZONE

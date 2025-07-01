@@ -254,11 +254,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.7.11",
+            "version": "5.8.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/175d6def25bc53ed431e7bd8a23a6c893a80f77e",
-                "reference": "175d6def25bc53ed431e7bd8a23a6c893a80f77e",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/54634dee804c93d3dcd43a9061f64f5308bebf0f",
+                "reference": "54634dee804c93d3dcd43a9061f64f5308bebf0f",
                 "shasum": ""
             },
             "require": {
@@ -300,8 +300,8 @@
                 "symfony/property-access": "^7.0",
                 "symfony/property-info": "^7.0",
                 "symfony/serializer": "^6.4",
-                "symfony/var-dumper": "^5.0|^6.0",
-                "symfony/yaml": "^5.2.3|^6.0",
+                "symfony/var-dumper": "^5.0|^6.0|^7.0",
+                "symfony/yaml": "^5.2.3|^6.0|^7.0",
                 "theiconic/name-parser": "^1.2",
                 "twig/twig": "~3.15.0",
                 "voku/stringy": "^6.4.0",
@@ -355,7 +355,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-06-24T16:52:05+00:00"
+            "time": "2025-07-01T18:35:08+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -5316,28 +5316,28 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v6.4.23",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "93e29e0deb5f1b2e360adfb389a20d25eb81a27b"
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/93e29e0deb5f1b2e360adfb389a20d25eb81a27b",
-                "reference": "93e29e0deb5f1b2e360adfb389a20d25eb81a27b",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0c3555045a46ab3cd4cc5a69d161225195230edb",
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
+                "symfony/deprecation-contracts": "^2.5|^3.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<5.4"
+                "symfony/console": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^5.4|^6.0|^7.0"
+                "symfony/console": "^6.4|^7.0"
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -5368,7 +5368,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v6.4.23"
+                "source": "https://github.com/symfony/yaml/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -5384,7 +5384,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-03T06:46:12+00:00"
+            "time": "2025-06-03T06:57:57+00:00"
         },
         {
             "name": "theiconic/name-parser",
