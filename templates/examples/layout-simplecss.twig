@@ -39,9 +39,11 @@
     {% endblock %}
 
     {% block meta %}
-        <div class="notice">
-            Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
-        </div>
+        {% if entry.author %}
+            <div class="notice">
+                Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
+            </div>
+        {% endif %}
     {% endblock %}
 
     {% block content %}

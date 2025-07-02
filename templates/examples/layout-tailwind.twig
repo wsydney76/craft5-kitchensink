@@ -34,9 +34,11 @@
     {% endblock %}
 
     {% block meta %}
-        <div class="my-8 border-2 border-gray-500 rounded-md p-6 bg-gray-100 text-lg">
-            Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
-        </div>
+        {% if entry.author %}
+            <div class="my-8 border-2 border-gray-500 rounded-md p-6 bg-gray-100 text-lg">
+                Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
+            </div>
+        {% endif %}
     {% endblock %}
 
     {% block content %}
