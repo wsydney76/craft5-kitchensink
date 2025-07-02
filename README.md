@@ -5,6 +5,7 @@ the following additions:
 
 
 * Set system timezone to Europe/Berlin
+* Set system name to environment variable
 * Use a single `.env.example` file for all environments
 * Use environment specific config settings to config/general.php, dependent on CRAFT_ENVIRONMENT variable
 * Added more config settings to config/general.php

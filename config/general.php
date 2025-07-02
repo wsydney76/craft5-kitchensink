@@ -47,6 +47,8 @@ return GeneralConfig::create()
 
     // ---------- Custom settings ----------
 
+    // Don't enable GraphQL
+    ->enableGql(false)
     // Do not let revisions pile up
     ->maxRevisions(10)
     // Remove non-ASCII characters from filenames of uploads
