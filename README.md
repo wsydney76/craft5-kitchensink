@@ -16,7 +16,6 @@ the following additions:
   * `*-simplecss.twig` for simple CSS
   * `*-tailwind.twig` for Tailwind CSS
 * Prepared for local plugin development and using the `extras` plugin as an example
-* Added an `images` local volume with supporting filesystems/asset fields for local development
 
 ## DDEV Installation
 
