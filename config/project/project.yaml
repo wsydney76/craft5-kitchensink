@@ -1,22 +1,4 @@
 dateModified: 1751437953
-elementSources:
-  craft\elements\Asset:
-    -
-      defaultSort:
-        - dateCreated
-        - desc
-      defaultViewMode: ''
-      disabled: false
-      key: 'volume:5ea50ad3-92a6-4e91-b5eb-2acfb721f9e1'
-      tableAttributes:
-        - imageSize
-        - alt
-        - dateModified
-        - link
-      type: native
-    -
-      key: temp
-      type: native
 email:
   fromEmail: admin@example.com
   fromName: 'Craft CMS'
