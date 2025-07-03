@@ -254,11 +254,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.8.0",
+            "version": "5.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/54634dee804c93d3dcd43a9061f64f5308bebf0f",
-                "reference": "54634dee804c93d3dcd43a9061f64f5308bebf0f",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/736e0e6c536817f718be669b5a0c3c16bb74fdd6",
+                "reference": "736e0e6c536817f718be669b5a0c3c16bb74fdd6",
                 "shasum": ""
             },
             "require": {
@@ -355,7 +355,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-07-01T18:35:08+00:00"
+            "time": "2025-07-03T16:23:21+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
