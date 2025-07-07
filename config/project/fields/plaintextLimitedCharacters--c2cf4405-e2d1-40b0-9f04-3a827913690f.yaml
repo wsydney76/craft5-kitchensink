@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: plaintextLimitedCharacters
+instructions: "The input is limited to 10 characters (or bytes, which can make a difference for multi-byte characters like umlauts or emojis). \r\nRemaining characters are shown on the right."
+name: 'Plaintext limited characters'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 10
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

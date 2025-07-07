@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 7a732bd8-2e2a-48e8-b906-a50d5cadea6a # Simple Kitchensink
+handle: simpleKitchensink
+maxAuthors: 1
+name: 'Simple Kitchensink'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
+    enabledByDefault: true
+    hasUrls: true
+    template: _entries/kitchensink
+    uriFormat: 'kitchensink/{slug}'
+type: channel

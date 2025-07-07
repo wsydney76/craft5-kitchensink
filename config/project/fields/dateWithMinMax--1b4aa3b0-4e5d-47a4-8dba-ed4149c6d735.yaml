@@ -1,0 +1,15 @@
+columnSuffix: null
+handle: dateWithMinMax
+instructions: '1900 - 2100'
+name: 'Date with min/max validation'
+searchable: false
+settings:
+  max: '2100-12-31T00:00:00+01:00'
+  min: '1900-01-01T00:00:00+01:00'
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

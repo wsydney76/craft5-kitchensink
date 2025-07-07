@@ -1,0 +1,11 @@
+columnSuffix: null
+handle: iconSelect
+instructions: null
+name: Icon
+searchable: false
+settings:
+  fullGraphqlData: true
+  includeProIcons: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Icon

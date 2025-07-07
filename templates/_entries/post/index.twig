@@ -1,0 +1,11 @@
+{% extends "_layouts/main.twig" %}
+
+{% block meta %}
+    <div class="notice">
+        Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
+    </div>
+{% endblock %}
+
+{% block content %}
+    {{ entry.tagline }}
+{% endblock %}

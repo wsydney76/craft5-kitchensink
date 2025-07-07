@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: integerMin0
+instructions: 'If decimal numbers are entered, there is no error, but the value will be rounded :-('
+name: 'Integer, min 0'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  step: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

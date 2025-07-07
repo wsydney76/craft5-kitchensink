@@ -1,4 +1,0 @@
-services:
-  web:
-    volumes:
-      - "$HOME/dev/plugins:/var/www/plugins"

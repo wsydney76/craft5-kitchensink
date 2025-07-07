@@ -11,8 +11,6 @@
 use craft\config\GeneralConfig;
 use craft\helpers\App;
 
-$isDev = App::env('CRAFT_ENVIRONMENT') === 'dev';
-$isProd = App::env('CRAFT_ENVIRONMENT') === 'production';
 
 return GeneralConfig::create()
 
@@ -40,10 +38,10 @@ return GeneralConfig::create()
 
     // ---------- Environment specific settings ----------
 
-    ->devMode($isDev)
-    ->allowAdminChanges($isDev)
-    ->disallowRobots(!$isProd)
-    ->enableTemplateCaching($isProd)
+    ->devMode()
+    ->allowAdminChanges()
+    ->disallowRobots()
+    ->enableTemplateCaching(false)
 
     // ---------- Custom settings ----------
 

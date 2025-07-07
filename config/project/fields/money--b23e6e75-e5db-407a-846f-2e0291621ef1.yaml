@@ -1,0 +1,15 @@
+columnSuffix: null
+handle: money
+instructions: "The money field has a special behavior for inputing values.\r\nIt can be configure with default/min/max values"
+name: Money
+searchable: false
+settings:
+  currency: EUR
+  defaultValue: null
+  max: null
+  min: 0
+  showCurrency: false
+  size: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Money

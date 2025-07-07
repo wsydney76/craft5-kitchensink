@@ -1,0 +1,143 @@
+columnSuffix: null
+handle: table
+instructions: "Multi field table with different field types.\r\nNote that subfields cannot be marked as required.\r\nOnly the field as a whole can be translatable, content is not synced between sites."
+name: Table
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - ID
+            -
+              - handle
+              - id
+            -
+              - width
+              - 50px
+            -
+              - type
+              - number
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Name
+            -
+              - handle
+              - name
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Email
+            -
+              - handle
+              - email
+            -
+              - width
+              - ''
+            -
+              - type
+              - email
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Role
+            -
+              - handle
+              - role
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - CEO
+                    -
+                      - value
+                      - ceo
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - CTO
+                    -
+                      - value
+                      - cto
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - CFO
+                    -
+                      - value
+                      - cfo
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Working class'
+                    -
+                      - value
+                      - workingClass
+                    -
+                      - default
+                      - true
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Active
+            -
+              - handle
+              - active
+            -
+              - width
+              - ''
+            -
+              - type
+              - lightswitch
+  defaults: null
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

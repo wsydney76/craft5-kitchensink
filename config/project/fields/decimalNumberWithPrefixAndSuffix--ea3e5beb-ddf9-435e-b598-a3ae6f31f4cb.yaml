@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: decimalNumberWithPrefixAndSuffix
+instructions: 'The users "Formatting Locale" setting will determine which decimal separator (comma, point) will be used.'
+name: 'Decimal number, with prefix and suffix'
+searchable: false
+settings:
+  decimals: 2
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: Max.
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  step: null
+  suffix: cm
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

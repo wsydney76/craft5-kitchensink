@@ -1,0 +1,80 @@
+columnSuffix: null
+handle: staticRows
+instructions: "Note that 'values' can't have different field types."
+name: 'Static rows'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Property
+            -
+              - handle
+              - property
+            -
+              - width
+              - 120px
+            -
+              - type
+              - heading
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Value
+            -
+              - handle
+              - value
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - Width
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - Height
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - Depth
+        -
+          - col2
+          - ''
+    -
+      __assoc__:
+        -
+          - col1
+          - Weight
+        -
+          - col2
+          - ''
+  maxRows: null
+  minRows: null
+  staticRows: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

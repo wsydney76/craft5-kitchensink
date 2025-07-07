@@ -1,0 +1,62 @@
+columnSuffix: null
+handle: checkboxesWithColorIconsAndCustomValues
+instructions: null
+name: 'Checkboxes with Color/Icons and custom values'
+searchable: false
+settings:
+  customOptions: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Apple
+        -
+          - value
+          - apple
+        -
+          - icon
+          - apple-whole
+        -
+          - color
+          - '#4ee473'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Strawberry
+        -
+          - value
+          - strawberry
+        -
+          - icon
+          - strawberry
+        -
+          - color
+          - '#f32b2b'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Banana
+        -
+          - value
+          - banana
+        -
+          - icon
+          - banana
+        -
+          - color
+          - '#f3e7aa'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Checkboxes

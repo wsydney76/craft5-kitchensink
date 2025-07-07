@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: plaintextMultiLines
+instructions: "The number of inital lines can be configured.\r\nWhether this field supports markdown, reference tags etc. is determined by the frontend template"
+name: 'Plaintext Multi Lines'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

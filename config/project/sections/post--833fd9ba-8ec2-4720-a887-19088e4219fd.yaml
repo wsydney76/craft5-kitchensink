@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 3bb9c2ce-e8f4-43f8-ab39-f0b01bc48cc0 # Post
+handle: post
+maxAuthors: 1
+name: Post
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
+    enabledByDefault: true
+    hasUrls: true
+    template: _entries/post
+    uriFormat: 'post/{slug}'
+type: channel

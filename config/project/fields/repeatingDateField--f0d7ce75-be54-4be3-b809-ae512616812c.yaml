@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: repeatingDateField
+instructions: 'A table field can be used to make simple fields repeatable.'
+name: 'Repeating Date Field'
+searchable: false
+settings:
+  addRowLabel: 'Add a date'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Event Date'
+            -
+              - handle
+              - eventDate
+            -
+              - width
+              - ''
+            -
+              - type
+              - date
+  defaults: null
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

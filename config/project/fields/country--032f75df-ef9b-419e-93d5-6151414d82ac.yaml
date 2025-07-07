@@ -1,0 +1,8 @@
+columnSuffix: null
+handle: country
+instructions: null
+name: Country
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Country

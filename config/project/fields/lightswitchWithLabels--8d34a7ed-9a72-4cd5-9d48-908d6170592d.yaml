@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: lightswitchWithLabels
+instructions: null
+name: 'Lightswitch with labels'
+searchable: false
+settings:
+  default: true
+  offLabel: 'The OFF label'
+  onLabel: 'The ON label'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

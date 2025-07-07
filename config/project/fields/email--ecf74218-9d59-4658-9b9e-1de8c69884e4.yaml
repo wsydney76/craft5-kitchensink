@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: email
+instructions: "Checks for valid email address.\r\nSee also link field"
+name: Email
+searchable: false
+settings:
+  placeholder: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

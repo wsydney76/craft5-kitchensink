@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ systemName }}</title>
-    <link rel="stylesheet" href="/examples/simple.css">
+    <link rel="stylesheet" href="/assets/simple.css">
 </head>
 <body>
 
@@ -16,18 +16,17 @@
             <li>
                 <a href="{{ siteUrl }}">Home</a>
             </li>
-            <li>
-                <a href="#">Page 1</a>
-            </li>
-            <li>
-                <a href="#">Page 2</a>
-            </li>
         </ul>
     </nav>
 
 
     {% block featuredImage %}
-        <img src="https://picsum.photos/1024/400" alt="Random image" width="1024" height="400">
+        {% if entry.featuredImage %}
+            {% set image = entry.featuredImage.one %}
+            {% if image %}
+                {{ image.img({width: 1024, height: 400}) }}
+            {% endif %}
+        {% endif %}
     {% endblock %}
 
 </header>
@@ -39,11 +38,6 @@
     {% endblock %}
 
     {% block meta %}
-        {% if entry.author %}
-            <div class="notice">
-                Created by {{ entry.author.name }}, {{ entry.postDate|date('short') }}
-            </div>
-        {% endif %}
     {% endblock %}
 
     {% block content %}

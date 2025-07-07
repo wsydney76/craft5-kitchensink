@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: urlLinkAdvanced
+instructions: 'A URL link with all additional options'
+name: 'URL Link Advanced'
+searchable: false
+settings:
+  advancedFields:
+    - urlSuffix
+    - target
+    - title
+    - class
+    - id
+    - rel
+    - ariaLabel
+    - download
+  fullGraphqlData: true
+  maxLength: 255
+  showLabelField: true
+  typeSettings:
+    __assoc__:
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - '1'
+            -
+              - allowAnchors
+              - '1'
+            -
+              - allowCustomSchemes
+              - '1'
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Link

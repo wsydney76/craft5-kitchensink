@@ -1,0 +1,79 @@
+columnSuffix: null
+handle: radioWithCustomValue
+instructions: null
+name: 'Radio with custom value'
+searchable: false
+settings:
+  customOptions: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - North
+        -
+          - value
+          - north
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - East
+        -
+          - value
+          - east
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - South
+        -
+          - value
+          - south
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - West
+        -
+          - value
+          - west
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

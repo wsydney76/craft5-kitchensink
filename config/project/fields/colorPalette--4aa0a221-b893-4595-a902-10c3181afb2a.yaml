@@ -1,0 +1,44 @@
+columnSuffix: null
+handle: colorPalette
+instructions: 'Predefined palette only'
+name: 'Color Palette'
+searchable: false
+settings:
+  allowCustomColors: false
+  palette:
+    -
+      __assoc__:
+        -
+          - color
+          - '#0000ff'
+        -
+          - label
+          - Blue
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - color
+          - '#ff0000'
+        -
+          - label
+          - Red
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - color
+          - '#00ff00'
+        -
+          - label
+          - Green
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

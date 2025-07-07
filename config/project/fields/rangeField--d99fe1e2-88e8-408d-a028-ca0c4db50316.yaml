@@ -1,0 +1,14 @@
+columnSuffix: null
+handle: rangeField
+instructions: "Configurable settings: Min, max, step\r\nYou can either move the range input, or enter the number into the text field.\r\nEntered number greater max. settings are set to max value."
+name: 'Range Field'
+searchable: false
+settings:
+  defaultValue: 50
+  max: 100
+  min: 0
+  step: 1
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Range

@@ -1,0 +1,62 @@
+columnSuffix: null
+handle: radioWithColorsIcons
+instructions: null
+name: 'Radio with Colors/Icons'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Apple
+        -
+          - value
+          - apple
+        -
+          - icon
+          - apple-whole
+        -
+          - color
+          - '#d41616'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Banana
+        -
+          - value
+          - banana
+        -
+          - icon
+          - banana
+        -
+          - color
+          - '#d3cf5f'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bread
+        -
+          - value
+          - bread
+        -
+          - icon
+          - bread-loaf
+        -
+          - color
+          - '#d6d8cf'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

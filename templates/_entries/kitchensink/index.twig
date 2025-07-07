@@ -1,0 +1,12 @@
+{% extends "_layouts/main.twig" %}
+
+{% block content %}
+    {% set fields = entry.type.fieldLayout.customFields %}
+
+    {% for field in fields %}
+        <div>
+            <span style="font-weight: bold">{{ field.name }}</span> ({{ className(field) }})
+        </div>
+        {{ dump(entry.fieldValue(field.handle)) }}
+    {% endfor %}
+{% endblock %}

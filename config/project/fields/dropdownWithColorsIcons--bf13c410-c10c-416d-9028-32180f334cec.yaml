@@ -1,0 +1,62 @@
+columnSuffix: null
+handle: dropdownWithColorsIcons
+instructions: null
+name: 'Dropdown with Colors/Icons'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Left
+        -
+          - value
+          - left
+        -
+          - icon
+          - align-left
+        -
+          - color
+          - '#cb2020'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Center
+        -
+          - value
+          - center
+        -
+          - icon
+          - align-center
+        -
+          - color
+          - '#1457db'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Right
+        -
+          - value
+          - right
+        -
+          - icon
+          - align-right
+        -
+          - color
+          - '#1bde42'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
