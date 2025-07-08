@@ -111,7 +111,7 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: 'Attributed Relationship'
+        name: 'Attributed Relationships'
         uid: efa9be19-9512-4050-9efb-59dc8278a211
         userCondition: null
       -
@@ -202,6 +202,29 @@ fieldLayouts:
             userCondition: null
         name: 'Structured Data'
         uid: b1328e90-275a-4969-a17c-4b30e078009e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T14:06:28+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 050ebc1a-8578-433d-b6a4-6c31eb1bc8e0 # Two Columns
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1fcf254-28a7-4b88-b522-87e4173b75ef
+            userCondition: null
+            warning: null
+            width: 100
+        name: Layout
+        uid: f1e494f3-84d0-4ea2-b81f-c551872017ce
         userCondition: null
 handle: matrixKitchensink
 hasTitleField: true

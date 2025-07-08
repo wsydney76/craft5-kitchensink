@@ -1,0 +1,11 @@
+headingLevels:
+  - 2
+  - 3
+name: Nested
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - link
+  - createEntry

@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: rightColumn
+instructions: null
+name: 'Right Column'
+searchable: false
+settings:
+  createButtonLabel: 'New block on right column'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - b5226b3f-be24-4e58-94ce-54b895a4f52b # Heading
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 283952e0-b0ca-4048-b122-0636fe8d83d5 # Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 2385b31e-523f-4c46-b312-fb94954e8e77 # Image
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

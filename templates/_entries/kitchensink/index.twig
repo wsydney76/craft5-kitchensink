@@ -1,21 +1,7 @@
 {% extends "_layouts/main.twig" %}
 
 {% block content %}
-    {% set fields = entry.type.fieldLayout.customFields %}
-
-    {% for field in fields %}
-        {% set fieldType = className(field)|replace('craft\\fields\\', '')|lower %}
-        <div>
-            <span style="font-weight: bold">{{ field.name }}</span> ({{ fieldType }})
-        </div>
-
-        {% include [
-            "_partials/fields/#{fieldType}.twig",
-            "_partials/fields/default.twig"
-        ] with {
-        	field,
-            value: entry.fieldValue(field.handle)
-        } only %}
-
-    {% endfor %}
+    {% include '_partials/content.twig' with {
+    	entry
+    } only %}
 {% endblock %}

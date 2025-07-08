@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: nestedRichText
+instructions: 'With nested elements'
+name: 'Nested Rich Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  ckeConfig: 80e41654-a23a-4e72-ba55-bfc6a7c52180 # Nested
+  createButtonLabel: null
+  defaultTransform: null
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 2385b31e-523f-4c46-b312-fb94954e8e77 # Image
+  expandEntryButtons: true
+  fullGraphqlData: false
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

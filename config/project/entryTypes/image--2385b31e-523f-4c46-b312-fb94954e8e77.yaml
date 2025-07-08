@@ -2,7 +2,9 @@ color: null
 description: null
 fieldLayouts:
   e4f77aaa-c744-47ae-9fa6-d40b3ea35f4b:
-    cardThumbAlignment: end
+    cardThumbAlignment: start
+    cardView:
+      - 'layoutElement:c0c73d0f-079a-4dc2-9a8a-b4c8cb42c492'
     tabs:
       -
         elementCondition: null
@@ -16,7 +18,7 @@ fieldLayouts:
             includeInCards: false
             instructions: ' '
             label: Image
-            providesThumbs: false
+            providesThumbs: true
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -30,7 +32,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
             handle: caption
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: Caption
             providesThumbs: false

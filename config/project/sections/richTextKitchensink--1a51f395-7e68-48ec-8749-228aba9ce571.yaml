@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: dba2e369-ab3b-463c-b1ce-854c36a34e66 # Rich Text Kitchensink
+handle: richTextKitchensink
+maxAuthors: 1
+name: 'Rich Text Kitchensink'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
+    enabledByDefault: true
+    hasUrls: true
+    template: _entries/kitchensink/index.twig
+    uriFormat: 'kitchensink/{slug}'
+type: channel

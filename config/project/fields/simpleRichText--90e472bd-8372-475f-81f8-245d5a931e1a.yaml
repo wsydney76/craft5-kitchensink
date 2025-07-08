@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: simpleRichText
+instructions: 'Simple formatting options and links'
+name: 'Simple Rich Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  ckeConfig: edb618a6-8189-4fc0-81f0-0b730e698af1 # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  expandEntryButtons: false
+  fullGraphqlData: false
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

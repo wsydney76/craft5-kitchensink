@@ -1,4 +1,4 @@
-dateModified: 1751982467
+dateModified: 1751987040
 elementSources:
   craft\elements\Entry:
     -
@@ -59,6 +59,9 @@ elementSources:
         - link
       type: native
     -
+      key: 'section:1a51f395-7e68-48ec-8749-228aba9ce571' # Rich Text Kitchensink
+      type: native
+    -
       heading: 'Dummy content'
       key: 'heading:c84ba410-47de-43f3-ae7d-0d0d5e809930'
       type: heading
@@ -105,6 +108,7 @@ meta:
   __names__:
     0e14f496-b3e2-46ec-ae4a-24425df0251a: 'Image with validation' # Image with validation
     0ffb44ee-5128-454b-9a89-eb8f3203493c: 'Internal Link' # Internal Link
+    1a51f395-7e68-48ec-8749-228aba9ce571: 'Rich Text Kitchensink' # Rich Text Kitchensink
     1b3e74d7-c949-41bc-8a96-f3e43f364fd4: Date # Date
     1b4aa3b0-4e5d-47a4-8dba-ed4149c6d735: 'Date with min/max validation' # Date with min/max validation
     2b1eb865-cdd6-4405-9183-438460f762c1: 'Vita - Inline' # Vita - Inline
@@ -113,6 +117,7 @@ meta:
     3bb9c2ce-e8f4-43f8-ab39-f0b01bc48cc0: Post # Post
     3f5eff8f-7256-4dee-b7e2-dc8702278055: 'Integer, min 0' # Integer, min 0
     4aa0a221-b893-4595-a902-10c3181afb2a: 'Color Palette' # Color Palette
+    4e9cd5f3-fa8f-43bc-a002-25876f31802a: 'Column Widths' # Column Widths
     4e85e1ba-84c6-4fb5-b423-f1e61e66a867: 'Matrix Kitchensink' # Matrix Kitchensink
     6f7de782-9105-4f60-8eef-b18e9b0e1993: 'Vita - Cards' # Vita - Cards
     7a32e12b-2f36-4264-b6a7-9ad04666f138: 'Money with currency' # Money with currency
@@ -123,6 +128,7 @@ meta:
     8b7688c3-bcda-497b-8cac-2c5c23ce6da2: 'Multiple Entries ' # Multiple Entries 
     8d34a7ed-9a72-4cd5-9d48-908d6170592d: 'Lightswitch with labels' # Lightswitch with labels
     8e615b76-f2a2-4fcf-a122-a3940b554ce8: 'Multi Select with colors/icons' # Multi Select with colors/icons
+    9a8f08ff-8e03-452c-8da5-cb1d44fcf818: 'Right Column' # Right Column
     9ad1c8b7-bd7f-4683-8012-b21a1b19cd7e: 'Attributed Relationship -  Element index view mode' # Attributed Relationship -  Element index view mode
     9eb4f30a-4c3c-46c6-ba39-7fde854263cd: 'Button Group (Icons only)' # Button Group (Icons only)
     9f7fa161-dafa-44b5-a4ff-93743b0acab8: Links # Links
@@ -135,15 +141,20 @@ meta:
     036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: Default # Default
     38b7f3c0-5362-4460-81cd-d145a313c2f1: 'URL Link Advanced' # URL Link Advanced
     41d02504-2503-4e44-902d-0737b4f8e313: 'Heading level' # Heading level
+    050ebc1a-8578-433d-b6a4-6c31eb1bc8e0: 'Two Columns' # Two Columns
     74b72af7-26e7-41d9-92ed-14d481e0a356: 'Single Entry - Single Source' # Single Entry - Single Source
+    80e41654-a23a-4e72-ba55-bfc6a7c52180: Nested # Nested
     90c9ef57-71d3-461e-9080-5354e9d5a0f1: 'Multiple Images - Cards mode' # Multiple Images - Cards mode
+    90e472bd-8372-475f-81f8-245d5a931e1a: 'Simple Rich Text' # Simple Rich Text
     93add84e-2f01-40d5-887e-20171d676d29: 'Static rows' # Static rows
     95dd478e-63d0-44fb-9bc2-bff8e4415e81: 'Multi Select' # Multi Select
     153fc909-74d8-4dc3-b1bb-b65cae06bd7c: 'SIngle Entry - Multiple Sources' # SIngle Entry - Multiple Sources
     226e9895-756d-404b-80d5-2c70bbd92ab6: 'Single Image' # Single Image
     234a5a4d-a3b9-4c09-a88a-726b37e01ee6: Radio # Radio
+    388a6337-6d8a-4883-ad08-3b5fd4eec937: 'Left Column' # Left Column
     552d10fc-aac7-4148-8048-307b75dd671c: 'Internal Link' # Internal Link
     557a3d5f-648b-48e4-90f8-472a74643a51: 'Relations Kitchensink' # Relations Kitchensink
+    708ad658-0530-4397-a406-ea48940e9e5c: 'Nested Rich Text' # Nested Rich Text
     769ae430-a215-42ce-90f2-68c156d46c10: Role # Role
     775fc597-d85b-42e5-9bfa-b211851371d6: 'Color Palette with Custom Color' # Color Palette with Custom Color
     833fd9ba-8ec2-4720-a887-19088e4219fd: Post # Post
@@ -163,6 +174,7 @@ meta:
     850385b8-7f29-496e-9e5b-1b22d8eb46ed: 'Attributed Relationship - Cards view mode' # Attributed Relationship - Cards view mode
     14846542-ed30-4f9a-9934-c51436d1dfc5: Person # Person
     33682359-2906-4f09-9b07-f8f2dc6e3282: 'Multiple Images - List mode' # Multiple Images - List mode
+    a3a63e6d-ee11-4d78-a8a6-d561203645d1: 'Two Columns' # Two Columns
     a4f2973e-4934-46f7-af6d-b72af78abade: Primary # Primary
     a47cecba-c95c-4cfb-b540-0e8ef4058667: Heading # Heading
     af2f9236-ea82-48d0-a229-5741ac3b566e: 'Multiple Entries - Single Source' # Multiple Entries - Single Source
@@ -180,6 +192,8 @@ meta:
     cd82ab5f-ddaf-4f06-bd20-280ad4a5b192: Table # Table
     cd83beee-0ccd-43f2-a740-84573f2ae81a: 'Repeatable Field Matrix' # Repeatable Field Matrix
     d99fe1e2-88e8-408d-a028-ca0c4db50316: 'Range Field' # Range Field
+    dba2e369-ab3b-463c-b1ce-854c36a34e66: 'Rich Text Kitchensink' # Rich Text Kitchensink
+    de871e3a-39ad-4bd6-bca2-ab9917ed4767: Advanced # Advanced
     df31c4fb-c302-4ed2-a006-9d7b63d70cb2: 'Image restricted to single location - dynamic folder' # Image restricted to single location - dynamic folder
     e73d4b9a-308e-447b-907f-e29ba99f8df7: 'Plaintext Single Line' # Plaintext Single Line
     e779f2df-d90a-4f8a-b269-485ce02c5e21: 'Production Type' # Production Type
@@ -191,6 +205,7 @@ meta:
     f0d7ce75-be54-4be3-b809-ae512616812c: 'Repeating Field' # Repeating Field
     f0dbae69-3acc-4e51-a1fd-f77049dd87f4: 'Content Kitchensink' # Content Kitchensink
     f8c4b31b-7c1f-4c15-804e-24ee7b04f4ac: 'Vita - Element Index' # Vita - Element Index
+    f55a7ee9-7343-4f84-a51a-06a5a00f99cf: 'Advanced Rich Text' # Advanced Rich Text
     fa3c7ef9-23d0-45a9-88dd-c74e9aea679c: 'Button Group' # Button Group
     fa6e7e7e-ceaf-44eb-9cc9-938cf4d7f4d7: Person # Person
     faa22494-7395-4fdc-b0b6-4c1c4c1de010: Dropdown # Dropdown

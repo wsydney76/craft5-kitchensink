@@ -1,0 +1,17 @@
+css: ".ck.ck-content p.note {\r\n    border-left: 4px solid #4a7cf6;\r\n    padding-left: 1rem;\r\n    color: #4a7cf6;\r\n}\r\n\r\n.ck.ck-content p.note--warning {\r\n    border-left-color: #e5422b;\r\n    color: #e5422b;\r\n}"
+headingLevels:
+  - 2
+  - 3
+js: "return {\r\n  link: {\r\n    decorators: {\r\n      openInNewTab: {\r\n        attributes: {\r\n          rel: 'noopener noreferrer',\r\n          target: '_blank',\r\n        },\r\n        label: 'Open in new tab?',\r\n        mode: 'manual',\r\n      },\r\n    },\r\n  },\r\n  table: {\r\n    contentToolbar: [\r\n      'tableRow',\r\n      'tableColumn',\r\n      'mergeTableCells',\r\n      'toggleTableCaption',\r\n      'tableProperties',\r\n      'tableCellProperties',\r\n    ],\r\n  },\r\n  style: {\r\n    definitions: [\r\n      {\r\n        name: 'Tip',\r\n        element: 'p',\r\n        classes: ['note']\r\n      },\r\n      {\r\n        name: 'Warning',\r\n        element: 'p',\r\n        classes: ['note', 'note--warning']\r\n      },\r\n    ]\r\n  }\r\n}"
+name: Advanced
+toolbar:
+  - heading
+  - style
+  - bulletedList
+  - insertTable
+  - '|'
+  - bold
+  - italic
+  - link
+  - '|'
+  - sourceEditing

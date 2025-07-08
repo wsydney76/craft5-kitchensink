@@ -1,0 +1,23 @@
+{% set fields = entry.type.fieldLayout.customFields %}
+
+    {% for field in fields %}
+        {% set fieldType = className(field)|
+            replace('craft\\ckeditor\\Field', 'ckeditor')|
+            replace('craft\\fields\\', '') %}
+
+        
+        <article>
+            <h3> 
+                Field: {{ field.name }} <span style="font-weight: normal">({{ fieldType }})</span>
+            </h3>
+
+            {% include [
+                "_partials/fields/#{fieldType|lower}.twig",
+                "_partials/fields/default.twig"
+            ] with {
+                field,
+                value: entry.fieldValue(field.handle)
+            } only %}
+        </article>
+
+    {% endfor %}

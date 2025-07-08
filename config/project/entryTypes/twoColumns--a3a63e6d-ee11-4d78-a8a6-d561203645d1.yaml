@@ -1,0 +1,108 @@
+color: null
+description: null
+fieldLayouts:
+  63b0b8d2-a18b-4199-bdc8-6830101e6664:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T14:24:22+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4e9cd5f3-fa8f-43bc-a002-25876f31802a # Column Widths
+            handle: null
+            includeInCards: false
+            instructions: 'Width of left/right columns'
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd4d17e1-d09a-4a45-8106-99c50dc1e753
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-08T14:16:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ad99bc8-7f7b-42c9-a8a2-feef384a0fd7 # Color
+            handle: bgColor
+            includeInCards: false
+            instructions: 'Background color of columns'
+            label: 'Background Color'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc18f182-9c6c-48b9-9de8-81a4b21deef5
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-08T14:18:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ad99bc8-7f7b-42c9-a8a2-feef384a0fd7 # Color
+            handle: textColor
+            includeInCards: false
+            instructions: 'Color of text'
+            label: 'Text Color'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22a00888-06b4-40d6-b520-0a0ad455d0d9
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-08T14:06:25+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 388a6337-6d8a-4883-ad08-3b5fd4eec937 # Left Column
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66c26566-0bb2-42e5-ab56-9b62207274f2
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-07-08T14:06:25+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9a8f08ff-8e03-452c-8da5-cb1d44fcf818 # Right Column
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f8846d3-1342-4b45-b0f5-ef2ec1afa1fe
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 2c04f990-0d12-456c-bdb3-871c0bfe2419
+        userCondition: null
+handle: twoColumns
+hasTitleField: false
+icon: table-columns
+name: 'Two Columns'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

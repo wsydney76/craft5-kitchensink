@@ -1,0 +1,62 @@
+columnSuffix: null
+handle: columnWidths
+instructions: null
+name: 'Column Widths'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'half - half'
+        -
+          - value
+          - '1'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'one third - two thirds'
+        -
+          - value
+          - '0.5'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'two thirds - one third'
+        -
+          - value
+          - '2'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

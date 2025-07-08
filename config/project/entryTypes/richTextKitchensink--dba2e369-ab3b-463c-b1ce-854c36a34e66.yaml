@@ -1,0 +1,116 @@
+color: null
+description: null
+fieldLayouts:
+  c7e077d6-a208-439c-b5a9-1736c5b5f699:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-07-08T14:36:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ae332b84-3d92-4bbb-ae91-529116211003
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T14:38:22+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 90e472bd-8372-475f-81f8-245d5a931e1a # Simple Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20918cb8-1ad1-4b3e-afd3-70ebbac859f5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Basic
+        uid: 51cfd591-b3ab-4da4-8c06-af64ec98cc40
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T14:50:38+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f55a7ee9-7343-4f84-a51a-06a5a00f99cf # Advanced Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8190a4fb-2219-4164-8353-519063e48b56
+            userCondition: null
+            warning: null
+            width: 100
+        name: Advanced
+        uid: 6b642481-b50e-4fe2-8353-c9ee168c1c4a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T15:03:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 708ad658-0530-4397-a406-ea48940e9e5c # Nested Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32fd1421-5ad9-43c3-88c2-c15dd0f9b1e0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Nested
+        uid: eef33c50-2963-4eea-afd5-e68c242a4f39
+        userCondition: null
+handle: richTextKitchensink
+hasTitleField: true
+icon: paragraph
+name: 'Rich Text Kitchensink'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

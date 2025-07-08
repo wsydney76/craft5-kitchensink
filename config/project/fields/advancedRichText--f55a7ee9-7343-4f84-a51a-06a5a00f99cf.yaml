@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: advancedRichText
+instructions: 'Advanced settings, includes examples from CKEditor docs.'
+name: 'Advanced Rich Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  ckeConfig: de871e3a-39ad-4bd6-bca2-ab9917ed4767 # Advanced
+  createButtonLabel: null
+  defaultTransform: null
+  expandEntryButtons: false
+  fullGraphqlData: false
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field
