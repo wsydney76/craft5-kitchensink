@@ -1,0 +1,18 @@
+{% set assets = value.all %}
+{% if assets %}
+
+    {% for asset in assets %}
+
+        <section>
+            {% if asset.kind == 'image' %}
+                <figure>
+                    {{ asset.img({width: 250}) }}
+                </figure>
+            {% else %}
+                {{ entry.link }}
+            {% endif %}
+        </section>
+
+    {% endfor %}
+
+{% endif %}

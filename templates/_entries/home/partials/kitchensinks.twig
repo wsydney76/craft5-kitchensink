@@ -1,0 +1,18 @@
+{% set entries = craft.entries.section([
+    'contentKitchensink',
+    'matrixKitchensink',
+    'richTextKitchensink',
+    'relationsKitchensink'
+]).all %}
+
+<h2>Kitchen Sinks</h2>
+
+<ul>
+    {% for entry in entries %}
+    	<li>
+            {{ entry.link }}<br>
+            {{ entry.section.name }}<br>
+            <a href="{{ entry.cpEditUrl }}">Edit</a>
+        </li>
+    {% endfor %}
+</ul>

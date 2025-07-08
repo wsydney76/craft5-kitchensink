@@ -1,23 +1,26 @@
-{% set fields = entry.type.fieldLayout.customFields %}
+{# @var tab \craft\models\FieldLayoutTab  #}
+{# @var element \craft\fieldlayoutelements\CustomField #}
 
-    {% for field in fields %}
-        {% set fieldType = className(field)|
-            replace('craft\\ckeditor\\Field', 'ckeditor')|
-            replace('craft\\fields\\', '') %}
+{% for tab in entry.type.fieldLayout.tabs %}
 
-        
-        <article>
-            <h3> 
-                Field: {{ field.name }} <span style="font-weight: normal">({{ fieldType }})</span>
-            </h3>
+    <h2 class="notice">Tab: {{ tab.name }}</h2>
 
-            {% include [
-                "_partials/fields/#{fieldType|lower}.twig",
-                "_partials/fields/default.twig"
-            ] with {
-                field,
-                value: entry.fieldValue(field.handle)
-            } only %}
-        </article>
+    {% for element in tab.elements %}
+        {% if className(element) ends with 'CustomField' %}
+            {% set field = element.field %}
+            <article>
+                <h3>
+                    {{ field.name }} <span style="font-weight: normal">({{ className(field) }})</span>
+                </h3>
 
+                {% include [
+                    "_partials/fields/#{className(field)|kebab}.twig",
+                    "_partials/fields/default.twig"
+                ] with {
+                    field,
+                    value: entry.fieldValue(field.handle)
+                } only %}
+            </article>
+        {% endif %}
     {% endfor %}
+{% endfor %}

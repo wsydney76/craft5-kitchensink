@@ -1,4 +1,4 @@
-dateModified: 1751987040
+dateModified: 1751999808
 elementSources:
   craft\elements\Entry:
     -
@@ -13,6 +13,17 @@ elementSources:
         - section
         - postDate
         - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: singles
+      tableAttributes:
+        - status
         - link
       type: native
     -
@@ -177,6 +188,7 @@ meta:
     a3a63e6d-ee11-4d78-a8a6-d561203645d1: 'Two Columns' # Two Columns
     a4f2973e-4934-46f7-af6d-b72af78abade: Primary # Primary
     a47cecba-c95c-4cfb-b540-0e8ef4058667: Heading # Heading
+    ae6502f9-ab99-42e8-9025-3901f2fb5ffc: Home # Home
     af2f9236-ea82-48d0-a229-5741ac3b566e: 'Multiple Entries - Single Source' # Multiple Entries - Single Source
     b2c5dec0-185e-4a73-bb55-f08dfbdee880: 'Radio with Colors/Icons' # Radio with Colors/Icons
     b23e6e75-e5db-407a-846f-2e0291621ef1: Money # Money

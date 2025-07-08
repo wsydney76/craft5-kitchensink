@@ -271,6 +271,63 @@ fieldLayouts:
         name: Images
         uid: f735b862-32a4-490b-8b7c-a2aadb191626
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T18:36:41+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fb3f5d93-1ca0-4a16-a2f6-25fd355de7f2 # URL Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3992bd5-1524-4e21-9a5c-4d07361df702
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T18:36:41+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c74c7227-d078-4556-81a2-d990fcfc7307 # Generic Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2466eafc-72a5-454f-b156-e84bd0239865
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T18:36:41+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 38b7f3c0-5362-4460-81cd-d145a313c2f1 # URL Link Advanced
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8c0e1b0-4e86-455b-bc5d-1cc11a14dade
+            userCondition: null
+            warning: null
+            width: 100
+        name: Links
+        uid: edad4a9f-3cbf-49c9-8026-f029ce6f14fd
+        userCondition: null
 handle: relationsKitchensink
 hasTitleField: true
 icon: arrow-right-arrow-left
