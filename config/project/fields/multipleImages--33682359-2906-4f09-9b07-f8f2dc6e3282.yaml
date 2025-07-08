@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'Also supports view modes List/Large'
-name: 'Single Image'
+handle: multipleImages
+instructions: null
+name: 'Multiple Images - List mode'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -14,7 +14,7 @@ settings:
   defaultUploadLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   previewMode: full
   restrictFiles: true
@@ -22,8 +22,8 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   restrictedLocationSubpath: null
-  selectionLabel: 'Select an image'
-  showCardsInGrid: true
+  selectionLabel: 'Add an image'
+  showCardsInGrid: false
   showSearchInput: false
   showSiteMenu: true
   showUnpermittedFiles: false
@@ -32,7 +32,7 @@ settings:
     - 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: cards
+  viewMode: list
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Assets

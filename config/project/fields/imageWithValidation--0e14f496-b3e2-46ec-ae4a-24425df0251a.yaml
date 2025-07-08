@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'Also supports view modes List/Large'
-name: 'Single Image'
+handle: imageWithValidation
+instructions: "Requires min. 1200px width.\r\nValidation fails if image has no Alternative text."
+name: 'Image with validation'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -22,6 +22,40 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+      -
+        - conditionRules
+        -
+          -
+            __assoc__:
+              -
+                - class
+                - craft\elements\conditions\assets\WidthConditionRule
+              -
+                - uid
+                - ca82c5da-6b88-42fe-b913-d7ac74f84c97
+              -
+                - operator
+                - '>='
+              -
+                - value
+                - '1200'
+              -
+                - maxValue
+                - ''
+              -
+                - step
+                - 1
   selectionLabel: 'Select an image'
   showCardsInGrid: true
   showSearchInput: false
@@ -31,7 +65,7 @@ settings:
   sources:
     - 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   targetSiteId: null
-  validateRelatedElements: false
+  validateRelatedElements: true
   viewMode: cards
 translationKeyFormat: null
 translationMethod: none

@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 26e23efd-dbc9-4c03-97bd-0da742e7674f # Relations Kitchensink
+handle: relationsKitchensink
+maxAuthors: 1
+name: 'Relations Kitchensink'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
+    enabledByDefault: true
+    hasUrls: true
+    template: _entries/kitchensink
+    uriFormat: 'kitchensink/{slug}'
+type: channel

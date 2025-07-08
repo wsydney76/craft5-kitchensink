@@ -1,10 +1,10 @@
 columnSuffix: null
-handle: repeatingDateField
+handle: repeatingField
 instructions: 'A table field can be used to make simple fields repeatable.'
-name: 'Repeating Date Field'
+name: 'Repeating Field'
 searchable: false
 settings:
-  addRowLabel: 'Add a date'
+  addRowLabel: 'Add a link'
   columns:
     __assoc__:
       -
@@ -13,16 +13,16 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Event Date'
+              - Link
             -
               - handle
-              - eventDate
+              - link
             -
               - width
               - ''
             -
               - type
-              - date
+              - url
   defaults: null
   maxRows: null
   minRows: null

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Delete all but the most recent revision
+ddev craft utils/prune-revisions --max-revisions=1
+
+# Make sure the project config files are up to date
+ddev craft project-config/write
+
+# Backup the database
+ddev craft db/backup setup/seed.sql --zip --overwrite=1

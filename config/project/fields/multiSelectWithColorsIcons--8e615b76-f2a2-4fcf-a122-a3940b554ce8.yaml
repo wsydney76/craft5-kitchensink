@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: multiSelect
+handle: multiSelectWithColorsIcons
 instructions: null
-name: 'Multi Select'
+name: 'Multi Select with colors/icons'
 searchable: false
 settings:
   customOptions: false
@@ -10,16 +10,16 @@ settings:
       __assoc__:
         -
           - label
-          - North
+          - Bed
         -
           - value
-          - north
+          - bed
         -
           - icon
-          - ''
+          - bed
         -
           - color
-          - ''
+          - '#d71d1d'
         -
           - default
           - ''
@@ -27,16 +27,16 @@ settings:
       __assoc__:
         -
           - label
-          - East
+          - Home
         -
           - value
-          - east
+          - home
         -
           - icon
-          - ''
+          - caravan
         -
           - color
-          - ''
+          - '#3c9f50'
         -
           - default
           - ''
@@ -44,16 +44,16 @@ settings:
       __assoc__:
         -
           - label
-          - South
+          - Vacation
         -
           - value
-          - south
+          - vacation
         -
           - icon
-          - ''
+          - island-tropical
         -
           - color
-          - ''
+          - '#2952a3'
         -
           - default
           - ''
@@ -61,16 +61,16 @@ settings:
       __assoc__:
         -
           - label
-          - West
+          - Work
         -
           - value
-          - west
+          - work
         -
           - icon
-          - ''
+          - person-digging
         -
           - color
-          - ''
+          - '#5bd7cf'
         -
           - default
           - ''

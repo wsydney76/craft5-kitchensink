@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: multipleEntries
+instructions: "Single source\r\nSame settings single/multiple relations/sources as for list mode possible.\r\nCard content is defined on the entries entry type."
+name: 'Multiple Entries '
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Add a post'
+  showCardsInGrid: true
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources:
+    - 'section:833fd9ba-8ec2-4720-a887-19088e4219fd' # Post
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

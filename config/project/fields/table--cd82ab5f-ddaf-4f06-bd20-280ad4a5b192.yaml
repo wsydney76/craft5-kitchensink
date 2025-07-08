@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: table
-instructions: "Multi field table with different field types.\r\nNote that subfields cannot be marked as required.\r\nOnly the field as a whole can be translatable, content is not synced between sites."
+instructions: 'Multi field table with different field types.'
 name: Table
 searchable: false
 settings:

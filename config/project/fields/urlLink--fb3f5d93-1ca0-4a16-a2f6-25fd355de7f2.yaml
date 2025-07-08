@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: urlLink
-instructions: 'A URL link with out any options'
+instructions: 'A URL link without any options'
 name: 'URL Link'
 searchable: false
 settings:

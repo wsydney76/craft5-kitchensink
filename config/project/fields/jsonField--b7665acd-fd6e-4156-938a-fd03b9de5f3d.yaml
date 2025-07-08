@@ -1,0 +1,8 @@
+columnSuffix: null
+handle: jsonField
+instructions: "For structured data\r\nChecks for valid JSON, but does not enforce a schema."
+name: 'JSON Field'
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Json

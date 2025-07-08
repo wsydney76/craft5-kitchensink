@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 7a732bd8-2e2a-48e8-b906-a50d5cadea6a # Simple Kitchensink
-handle: simpleKitchensink
+    uid: 7a732bd8-2e2a-48e8-b906-a50d5cadea6a # Content Kitchensink
+handle: contentKitchensink
 maxAuthors: 1
-name: 'Simple Kitchensink'
+name: 'Content Kitchensink'
 previewTargets:
   -
     __assoc__:

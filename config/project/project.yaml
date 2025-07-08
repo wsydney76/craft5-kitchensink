@@ -1,8 +1,19 @@
-dateModified: 1751906126
+dateModified: 1751937936
 elementSources:
   craft\elements\Entry:
     -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
       key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
       type: native
     -
       heading: Kitchensinks
@@ -14,12 +25,15 @@ elementSources:
         - desc
       defaultViewMode: ''
       disabled: false
-      key: 'section:f0dbae69-3acc-4e51-a1fd-f77049dd87f4' # Simple Kitchensink
+      key: 'section:f0dbae69-3acc-4e51-a1fd-f77049dd87f4' # Content Kitchensink
       tableAttributes:
         - status
         - postDate
         - expiryDate
         - link
+      type: native
+    -
+      key: 'section:557a3d5f-648b-48e4-90f8-472a74643a51' # Relations Kitchensink
       type: native
     -
       heading: Channels
@@ -53,6 +67,7 @@ fs:
     url: '@weburl/dist/transforms'
 meta:
   __names__:
+    0e14f496-b3e2-46ec-ae4a-24425df0251a: 'Image with validation' # Image with validation
     1b3e74d7-c949-41bc-8a96-f3e43f364fd4: Date # Date
     1b4aa3b0-4e5d-47a4-8dba-ed4149c6d735: 'Date with min/max validation' # Date with min/max validation
     2df1efe9-9d3c-4557-8578-1e9b0812d630: Checkboxes # Checkboxes
@@ -61,40 +76,56 @@ meta:
     3f5eff8f-7256-4dee-b7e2-dc8702278055: 'Integer, min 0' # Integer, min 0
     4aa0a221-b893-4595-a902-10c3181afb2a: 'Color Palette' # Color Palette
     7a32e12b-2f36-4264-b6a7-9ad04666f138: 'Money with currency' # Money with currency
-    7a732bd8-2e2a-48e8-b906-a50d5cadea6a: 'Simple Kitchensink' # Simple Kitchensink
+    7a732bd8-2e2a-48e8-b906-a50d5cadea6a: 'Content Kitchensink' # Content Kitchensink
     7c3c9635-e695-482d-a55b-f9102c718bef: 'Checkboxes with Color/Icons and custom values' # Checkboxes with Color/Icons and custom values
     7d7f13cf-6c66-4137-bd09-5830113ea59a: Lightswitch # Lightswitch
+    8b7688c3-bcda-497b-8cac-2c5c23ce6da2: 'Multiple Entries ' # Multiple Entries 
     8d34a7ed-9a72-4cd5-9d48-908d6170592d: 'Lightswitch with labels' # Lightswitch with labels
+    8e615b76-f2a2-4fcf-a122-a3940b554ce8: 'Multi Select with colors/icons' # Multi Select with colors/icons
     9eb4f30a-4c3c-46c6-ba39-7fde854263cd: 'Button Group (Icons only)' # Button Group (Icons only)
     20f5adff-712d-4cdb-8736-cf7ba3b982bc: 'Radio with custom value' # Radio with custom value
+    26e23efd-dbc9-4c03-97bd-0da742e7674f: 'Relations Kitchensink' # Relations Kitchensink
     032f75df-ef9b-419e-93d5-6151414d82ac: Country # Country
     036f6fb3-bd0b-4d7d-a2a6-7beb59204c1a: Default # Default
     38b7f3c0-5362-4460-81cd-d145a313c2f1: 'URL Link Advanced' # URL Link Advanced
+    74b72af7-26e7-41d9-92ed-14d481e0a356: 'Single Entry - Single Source' # Single Entry - Single Source
+    90c9ef57-71d3-461e-9080-5354e9d5a0f1: 'Multiple Images - Cards mode' # Multiple Images - Cards mode
     93add84e-2f01-40d5-887e-20171d676d29: 'Static rows' # Static rows
     95dd478e-63d0-44fb-9bc2-bff8e4415e81: 'Multi Select' # Multi Select
+    153fc909-74d8-4dc3-b1bb-b65cae06bd7c: 'SIngle Entry - Multiple Sources' # SIngle Entry - Multiple Sources
     226e9895-756d-404b-80d5-2c70bbd92ab6: 'Single Image' # Single Image
     234a5a4d-a3b9-4c09-a88a-726b37e01ee6: Radio # Radio
+    557a3d5f-648b-48e4-90f8-472a74643a51: 'Relations Kitchensink' # Relations Kitchensink
     775fc597-d85b-42e5-9bfa-b211851371d6: 'Color Palette with Custom Color' # Color Palette with Custom Color
     833fd9ba-8ec2-4720-a887-19088e4219fd: Post # Post
     888fb6e1-fc89-4735-b1bd-e5bc44e8734b: 'DateTime with timezone' # DateTime with timezone
+    982ea251-087b-4ea0-9044-91b3f2e56bf5: 'Plaintext limited bytes' # Plaintext limited bytes
     2178be4e-ae6f-485a-a241-dbffbd12733a: DateTime # DateTime
+    47278c69-43c3-4a4c-a7a1-c46b7424f6d2: 'Multiple Entries - Multiple Sources' # Multiple Entries - Multiple Sources
     171725ac-6000-448e-ae63-0ff45e94a624: Icon # Icon
+    33682359-2906-4f09-9b07-f8f2dc6e3282: 'Multiple Images - List mode' # Multiple Images - List mode
     a4f2973e-4934-46f7-af6d-b72af78abade: Primary # Primary
+    af2f9236-ea82-48d0-a229-5741ac3b566e: 'Multiple Entries - Single Source' # Multiple Entries - Single Source
     b2c5dec0-185e-4a73-bb55-f08dfbdee880: 'Radio with Colors/Icons' # Radio with Colors/Icons
     b23e6e75-e5db-407a-846f-2e0291621ef1: Money # Money
+    b7665acd-fd6e-4156-938a-fd03b9de5f3d: 'JSON Field' # JSON Field
+    bdb8afff-03dd-4f92-a335-f3f410de4f7e: 'Multiple Images - Large Thumbnails' # Multiple Images - Large Thumbnails
     bf13c410-c10c-416d-9028-32180f334cec: 'Dropdown with Colors/Icons' # Dropdown with Colors/Icons
     c2cf4405-e2d1-40b0-9f04-3a827913690f: 'Plaintext limited characters' # Plaintext limited characters
     c74c7227-d078-4556-81a2-d990fcfc7307: 'Generic Link' # Generic Link
     c833dde2-9f09-4ad2-bdbb-c3d6bded0dd2: Time # Time
+    cae6105d-13f3-4b8f-81b9-82d0986437f0: 'Plaintext Monospace' # Plaintext Monospace
     cd82ab5f-ddaf-4f06-bd20-280ad4a5b192: Table # Table
     d99fe1e2-88e8-408d-a028-ca0c4db50316: 'Range Field' # Range Field
+    df31c4fb-c302-4ed2-a006-9d7b63d70cb2: 'Image restricted to single location - dynamic folder' # Image restricted to single location - dynamic folder
     e73d4b9a-308e-447b-907f-e29ba99f8df7: 'Plaintext Single Line' # Plaintext Single Line
     ea3e5beb-ddf9-435e-b598-a3ae6f31f4cb: 'Decimal number, with prefix and suffix' # Decimal number, with prefix and suffix
     ec62ed85-ce37-48ad-9e54-db7f2cf167f6: 'Plaintext Multi Lines' # Plaintext Multi Lines
     ecf74218-9d59-4658-9b9e-1de8c69884e4: Email # Email
     edb618a6-8189-4fc0-81f0-0b730e698af1: Simple # Simple
-    f0d7ce75-be54-4be3-b809-ae512616812c: 'Repeating Date Field' # Repeating Date Field
-    f0dbae69-3acc-4e51-a1fd-f77049dd87f4: 'Simple Kitchensink' # Simple Kitchensink
+    ee4f2d54-51bf-4853-b219-f2ad93d758d8: 'Image restricted to single location' # Image restricted to single location
+    f0d7ce75-be54-4be3-b809-ae512616812c: 'Repeating Field' # Repeating Field
+    f0dbae69-3acc-4e51-a1fd-f77049dd87f4: 'Content Kitchensink' # Content Kitchensink
     fa3c7ef9-23d0-45a9-88dd-c74e9aea679c: 'Button Group' # Button Group
     faa22494-7395-4fdc-b0b6-4c1c4c1de010: Dropdown # Dropdown
     faea02b7-cc0c-468b-8abe-45a289623532: Images # Images

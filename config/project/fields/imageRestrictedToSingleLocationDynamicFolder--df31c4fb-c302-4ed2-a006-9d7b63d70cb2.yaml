@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'Also supports view modes List/Large'
-name: 'Single Image'
+handle: imageRestrictedToSingleLocationDynamicFolder
+instructions: "Stored in 'defaultlocation/{id}\r\nThis implements an 'assets are local to an entry' approach"
+name: 'Image restricted to single location - dynamic folder'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -18,11 +18,11 @@ settings:
   minRelations: null
   previewMode: full
   restrictFiles: true
-  restrictLocation: false
+  restrictLocation: true
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
-  restrictedLocationSubpath: null
-  selectionLabel: 'Select an image'
+  restrictedLocationSubpath: 'defaultlocation/{canonicalId}'
+  selectionLabel: null
   showCardsInGrid: true
   showSearchInput: false
   showSiteMenu: true

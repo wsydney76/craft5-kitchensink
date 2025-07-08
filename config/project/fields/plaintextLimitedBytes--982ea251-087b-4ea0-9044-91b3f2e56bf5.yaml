@@ -1,11 +1,11 @@
 columnSuffix: null
-handle: plaintextLimitedCharacters
-instructions: "The input is limited to 10 characters.\r\nRemaining characters are shown on the right."
-name: 'Plaintext limited characters'
+handle: plaintextLimitedBytes
+instructions: 'Limited to 10 bytes (which can make a difference for multi-byte characters like umlauts or emojis). '
+name: 'Plaintext limited bytes'
 searchable: false
 settings:
-  byteLimit: null
-  charLimit: 10
+  byteLimit: 10
+  charLimit: null
   code: false
   initialRows: 4
   multiline: false

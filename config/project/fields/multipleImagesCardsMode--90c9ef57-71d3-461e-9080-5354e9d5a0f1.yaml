@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'Also supports view modes List/Large'
-name: 'Single Image'
+handle: multipleImagesCardsMode
+instructions: 'Card content is defined on the volume'
+name: 'Multiple Images - Cards mode'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -14,7 +14,7 @@ settings:
   defaultUploadLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   previewMode: full
   restrictFiles: true
@@ -22,7 +22,7 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
   restrictedLocationSubpath: null
-  selectionLabel: 'Select an image'
+  selectionLabel: 'Add an image'
   showCardsInGrid: true
   showSearchInput: false
   showSiteMenu: true

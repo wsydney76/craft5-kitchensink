@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: singleImage
-instructions: 'Also supports view modes List/Large'
-name: 'Single Image'
+handle: imageRestrictedToSingleLocation
+instructions: "Stored in folder 'defaultlocation'\r\nCan be configured so that subfolders are allowed."
+name: 'Image restricted to single location'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -12,16 +12,16 @@ settings:
   branchLimit: null
   defaultPlacement: end
   defaultUploadLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
-  defaultUploadLocationSubpath: null
+  defaultUploadLocationSubpath: defaultlocation
   maintainHierarchy: false
   maxRelations: 1
   minRelations: null
   previewMode: full
   restrictFiles: true
-  restrictLocation: false
+  restrictLocation: true
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
-  restrictedLocationSubpath: null
+  restrictedLocationSubpath: defaultlocation
   selectionLabel: 'Select an image'
   showCardsInGrid: true
   showSearchInput: false
