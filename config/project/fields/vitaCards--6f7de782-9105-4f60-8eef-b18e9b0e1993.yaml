@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: vitaCards
+instructions: null
+name: 'Vita - Cards'
+searchable: false
+settings:
+  createButtonLabel: 'New role'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 769ae430-a215-42ce-90f2-68c156d46c10 # Role
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

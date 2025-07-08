@@ -71,7 +71,7 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Repeatable
+        name: 'Repeatable Fields'
         uid: e1e14d8c-dabc-44f3-98e8-4acbe275411d
         userCondition: null
       -
@@ -111,33 +111,7 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            dateAdded: '2025-07-08T07:50:09+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 9ad1c8b7-bd7f-4683-8012-b21a1b19cd7e # Attributed Relationship -  Element index view mode
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 0c7ece7b-adb5-4c5e-bc15-ed0bb358888d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-07-08T08:02:48+00:00'
-            dismissible: false
-            elementCondition: null
-            style: warning
-            tip: 'Changes to nested elements in element index mode are published immediately and are not part of the owning elements life cycle!'
-            type: craft\fieldlayoutelements\Tip
-            uid: e648a752-a973-48ac-9044-57909973873f
-            userCondition: null
-        name: Attributed
+        name: 'Attributed Relationship'
         uid: efa9be19-9512-4050-9efb-59dc8278a211
         userCondition: null
       -
@@ -162,6 +136,72 @@ fieldLayouts:
             width: 100
         name: 'Content Builder'
         uid: b51a2ecf-1b07-49fb-9c95-e44eb1f57e5e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T12:53:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2b1eb865-cdd6-4405-9183-438460f762c1 # Vita - Inline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f13ed4b0-495f-444b-84c4-a552d80369d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T13:23:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6f7de782-9105-4f60-8eef-b18e9b0e1993 # Vita - Cards
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee9494e8-f218-40b5-994c-996773f66e45
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T13:30:33+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f8c4b31b-7c1f-4c15-804e-24ee7b04f4ac # Vita - Element Index
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 735b60c7-9860-4c6f-b06a-68e449dfbec2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T08:02:48+00:00'
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Changes to nested elements in element index mode are published immediately and are not part of the owning elements life cycle!'
+            type: craft\fieldlayoutelements\Tip
+            uid: e648a752-a973-48ac-9044-57909973873f
+            userCondition: null
+        name: 'Structured Data'
+        uid: b1328e90-275a-4969-a17c-4b30e078009e
         userCondition: null
 handle: matrixKitchensink
 hasTitleField: true

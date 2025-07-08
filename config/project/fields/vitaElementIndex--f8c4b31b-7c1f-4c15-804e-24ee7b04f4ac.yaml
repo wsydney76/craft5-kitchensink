@@ -1,0 +1,34 @@
+columnSuffix: null
+handle: vitaElementIndex
+instructions: null
+name: 'Vita - Element Index'
+searchable: false
+settings:
+  createButtonLabel: 'Add role'
+  defaultIndexViewMode: table
+  defaultTableColumns:
+    - 'field:76666a59-39a6-4dc7-8933-2a83fb9c477e' # Year
+    - 'field:11b3c55e-0b5b-44e8-a066-dd2d8d594722' # Role Type
+    - 'fieldInstance:33038de7-4e41-4a0a-8a31-5fbe53087e76'
+    - 'fieldInstance:74fb5567-de9c-46aa-bad4-b8980ea645b9'
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 769ae430-a215-42ce-90f2-68c156d46c10 # Role
+        -
+          - group
+          - General
+  includeTableView: true
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: index
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

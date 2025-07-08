@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: roleImage
+instructions: null
+name: 'Role Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
+  restrictedLocationSubpath: role-images
+  selectionLabel: 'Select an image'
+  showCardsInGrid: false
+  showSearchInput: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:faea02b7-cc0c-468b-8abe-45a289623532' # Images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

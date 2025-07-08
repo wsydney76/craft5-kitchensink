@@ -29,7 +29,7 @@ fieldLayouts:
         userCondition: null
 handle: links
 hasTitleField: false
-icon: null
+icon: link-horizontal
 name: Links
 showSlugField: false
 showStatusField: false

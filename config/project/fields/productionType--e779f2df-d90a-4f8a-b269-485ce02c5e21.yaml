@@ -1,0 +1,79 @@
+columnSuffix: null
+handle: productionType
+instructions: null
+name: 'Production Type'
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Theater
+        -
+          - value
+          - theater
+        -
+          - icon
+          - masks-theater
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'TV/Streaming Movie'
+        -
+          - value
+          - tvStreamingMovie
+        -
+          - icon
+          - tv-retro
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'TV/Streaming Series'
+        -
+          - value
+          - tvStreamingSeries
+        -
+          - icon
+          - tv
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Cinema
+        -
+          - value
+          - cinema
+        -
+          - icon
+          - film-simple
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

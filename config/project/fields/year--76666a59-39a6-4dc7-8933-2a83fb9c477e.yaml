@@ -1,0 +1,19 @@
+columnSuffix: null
+handle: year
+instructions: null
+name: Year
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: 2025
+  min: 1930
+  prefix: null
+  previewCurrency: null
+  previewFormat: none
+  size: null
+  step: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number
