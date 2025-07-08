@@ -1,0 +1,8 @@
+{% set entries = value.all %}
+{% if entries %}
+    <ul>
+        {% for entry in entries %}
+        	<li>{{ entry.link }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}

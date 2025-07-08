@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: repeatableFieldMatrix
+instructions: "Make a field repeatable.\r\nUse matrix here for field types/settings not supported by the table field."
+name: 'Repeatable Field Matrix'
+searchable: false
+settings:
+  createButtonLabel: 'New link'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 14fc9a06-af11-456a-acbd-e5de907e1d01 # Link
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  e4f77aaa-c744-47ae-9fa6-d40b3ea35f4b:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T08:11:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 226e9895-756d-404b-80d5-2c70bbd92ab6 # Single Image
+            handle: image
+            includeInCards: false
+            instructions: ' '
+            label: Image
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14d1dfd8-224a-4635-a101-f86edf217fa1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T08:11:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: caption
+            includeInCards: false
+            instructions: null
+            label: Caption
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0c73d0f-079a-4dc2-9a8a-b4c8cb42c492
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5025f87e-0352-43e5-96ee-2454a0f72f47
+        userCondition: null
+handle: image
+hasTitleField: false
+icon: folder-image
+name: Image
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

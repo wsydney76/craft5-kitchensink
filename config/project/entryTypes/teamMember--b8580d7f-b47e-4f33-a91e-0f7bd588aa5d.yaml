@@ -1,0 +1,60 @@
+color: null
+description: null
+fieldLayouts:
+  85b69137-3753-4f57-9128-0ec80ca0d72b:
+    cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:795cb817-1271-4e59-a6ec-6c71bd6d9fa0'
+      - 'layoutElement:0d45f19f-cb87-4841-af2d-02f1618ae84c'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T07:42:37+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fa6e7e7e-ceaf-44eb-9cc9-938cf4d7f4d7 # Person
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 795cb817-1271-4e59-a6ec-6c71bd6d9fa0
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-07-08T07:42:37+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: role
+            includeInCards: true
+            instructions: null
+            label: Role
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d45f19f-cb87-4841-af2d-02f1618ae84c
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 38714fe7-6b32-421f-97a2-320c98444f1f
+        userCondition: null
+handle: teamMember
+hasTitleField: false
+icon: people-group
+name: 'Team Member'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

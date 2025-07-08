@@ -4,9 +4,18 @@
     {% set fields = entry.type.fieldLayout.customFields %}
 
     {% for field in fields %}
+        {% set fieldType = className(field)|replace('craft\\fields\\', '')|lower %}
         <div>
-            <span style="font-weight: bold">{{ field.name }}</span> ({{ className(field) }})
+            <span style="font-weight: bold">{{ field.name }}</span> ({{ fieldType }})
         </div>
-        {{ dump(entry.fieldValue(field.handle)) }}
+
+        {% include [
+            "_partials/fields/#{fieldType}.twig",
+            "_partials/fields/default.twig"
+        ] with {
+        	field,
+            value: entry.fieldValue(field.handle)
+        } only %}
+
     {% endfor %}
 {% endblock %}

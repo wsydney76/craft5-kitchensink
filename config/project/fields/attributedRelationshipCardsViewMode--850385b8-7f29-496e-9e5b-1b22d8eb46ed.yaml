@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: attributedRelationshipCardsViewMode
+instructions: null
+name: 'Attributed Relationship - Cards view mode'
+searchable: false
+settings:
+  createButtonLabel: 'Add team member'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - b8580d7f-b47e-4f33-a91e-0f7bd588aa5d # Team Member
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

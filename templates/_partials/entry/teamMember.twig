@@ -1,0 +1,6 @@
+{% set person = entry.person.one %}
+{% if person %}
+    <p>
+        {{ person.link }} {{ entry.role }}
+    </p>
+{% endif %}

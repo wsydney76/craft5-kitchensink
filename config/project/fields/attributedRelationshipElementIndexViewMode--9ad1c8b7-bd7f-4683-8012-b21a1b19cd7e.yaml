@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: attributedRelationshipElementIndexViewMode
+instructions: null
+name: 'Attributed Relationship -  Element index view mode'
+searchable: false
+settings:
+  createButtonLabel: 'Add team member'
+  defaultIndexViewMode: table
+  defaultTableColumns:
+    - 'field:fa6e7e7e-ceaf-44eb-9cc9-938cf4d7f4d7' # Person
+    - 'fieldInstance:0d45f19f-cb87-4841-af2d-02f1618ae84c'
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - b8580d7f-b47e-4f33-a91e-0f7bd588aa5d # Team Member
+        -
+          - group
+          - General
+  includeTableView: true
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: index
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

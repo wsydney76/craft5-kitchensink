@@ -1,0 +1,176 @@
+color: null
+description: null
+fieldLayouts:
+  a0fa8f5f-7d12-419f-bbf6-7d575c98f259:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-07-08T07:09:55+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e9d592ad-603d-47fb-9544-daa5d44eb3e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T07:20:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cd83beee-0ccd-43f2-a740-84573f2ae81a # Repeatable Field Matrix
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e000c944-a20f-4e5f-8075-125eb34f0df9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T07:30:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 139946b5-d020-4977-9d87-87e9c8f8e63c # Repeatable Field Matrix - Multiple types
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3883ab68-7aca-421e-9f9b-f3ce992fccf0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Repeatable
+        uid: e1e14d8c-dabc-44f3-98e8-4acbe275411d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T07:43:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 63059daf-4263-4a58-8eac-33b26f6b49b7 # Attributed Relationship
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8203ef2c-4229-4253-992d-75030c105c17
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T07:46:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 850385b8-7f29-496e-9e5b-1b22d8eb46ed # Attributed Relationship - Cards view mode
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a710a699-d92d-4e1a-be67-be824b3b4714
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T07:50:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 9ad1c8b7-bd7f-4683-8012-b21a1b19cd7e # Attributed Relationship -  Element index view mode
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c7ece7b-adb5-4c5e-bc15-ed0bb358888d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T08:02:48+00:00'
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Changes to nested elements in element index mode are published immediately and are not part of the owning elements life cycle!'
+            type: craft\fieldlayoutelements\Tip
+            uid: e648a752-a973-48ac-9044-57909973873f
+            userCondition: null
+        name: Attributed
+        uid: efa9be19-9512-4050-9efb-59dc8278a211
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T08:11:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 21dc7066-46d0-4e53-b141-08ba3d9d1823 # Content Builder
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a9e103a-4a15-4f2c-8c57-fffe4dbcaab6
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Content Builder'
+        uid: b51a2ecf-1b07-49fb-9c95-e44eb1f57e5e
+        userCondition: null
+handle: matrixKitchensink
+hasTitleField: true
+icon: block-brick
+name: 'Matrix Kitchensink'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,59 +1,18 @@
-# Craft 5 Basic Starter
+# Craft 5 Kitchen Sink
 
-This is a pure Craft CMS starter as provided in the craftcms/craft package with 
-the following additions:
+A Craft CMS 5 project with a focus on demonstrating various field types and settings.
 
+Created as part of a master's thesis on content modeling in the context of various content management systems, especially field types/complex content types and their settings as building blocks for content modeling and a smooth authoring experience.
 
-* Set system timezone to Europe/Berlin
-* Set system name to environment variable
-* Use a single `.env.example` file for all environments
-* Use environment specific config settings to config/general.php, dependent on CRAFT_ENVIRONMENT variable
-* Added more config settings to config/general.php
-* Added modules/_faux to enable autocompletion for some most frequently used variables in twig
-* Added /web/cpresources, /node_modules, /config/license.key to .gitignore
-* Added setup/install for automated installation under ddev, creates a user with user defined username/password.
-* Prepared optional Tailwind installation
-* Added scaffolding example pages and basic layout templates in `templates/examples/`
-  * `*-simplecss.twig` for simple CSS
-  * `*-tailwind.twig` for Tailwind CSS
-* Prepared for local plugin development and using the `extras` plugin as an example
+May also serve as presentation material for Craft CMS 5, showcasing the capabilities of the system to clients.
+
+Inspired by the kitchen sink example in [Kirby 5 playground](https://github.com/wsydney76/kirby5-playground).
 
 ## DDEV Installation
 
 * Clone repository
 * `cd` into project directory
-* Run `bash setup/install <projectname> <username> <password>`
+* Run `bash setup/install <projectname> <username> <password>` (or follow the included steps manually)
 
-Requires DDEV v1.24.6 +
+Optionally run `ddev craft db/restore setup/seed.sql.zip` to seed the project with example (nonsense) content.
 
-## Non-DDEV Installation
-
-* Clone repository
-* `cd` into project directory
-* Prepare web server and database according to Craft CMS requirements
-* Run `composer install`
-* Run `./craft setup`
-* Make sure `PRIMARY_SITE_URL` and `CRAFT_WEB_ROOT` are set correctly in `.env` file
-
-## Install Tailwind CSS (optional)
-
-* `cd` into project directory
-* Run `bash setup/install-tailwind`
-
-## Install Extras Plugin (optional)
-
-This project is prepared for local plugin development. The `extras` plugin is used as an example.
-
-* `docker-compose.mounts.yaml` is provided to mount the plugin directory
-* `composer.json` has the necessary additions to use the `extras` local plugins
-* * `minimum-stability` is set to `dev`
-* * `prefer-stable` is set to `true`
-* * `repositories` section is added for the `extras` plugin
-
-Install the `extras` plugin as follows:
-
-* `cd` into project directory
-* Run `bash setup/install-extras`
-* Navigate to the CP settings page and activate the options needed for your project.
-
-For other plugins, add the repository paths `composer.json` accordingly.

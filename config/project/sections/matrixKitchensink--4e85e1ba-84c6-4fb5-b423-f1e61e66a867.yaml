@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 23101e1c-bf9a-4c7d-8cb5-4710a69d5261 # Matrix Kitchensink
+handle: matrixKitchensink
+maxAuthors: 1
+name: 'Matrix Kitchensink'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
+    enabledByDefault: true
+    hasUrls: true
+    template: _entries/kitchensink/index.twig
+    uriFormat: 'kitchensink/{slug}'
+type: channel

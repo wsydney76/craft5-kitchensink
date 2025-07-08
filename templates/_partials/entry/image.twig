@@ -1,0 +1,11 @@
+{% set image = entry.image.one %}
+{% if image %}
+    <figure>
+        {{ image.img({width: 768, height: 350}) }}
+        {% if entry.caption %}
+            <figcaption>
+                {{ entry.caption }}
+            </figcaption>
+        {% endif %}
+    </figure>
+{% endif %}
