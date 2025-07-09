@@ -9,19 +9,10 @@
 
         {% set field = element.field %}
 
-        <article>
-            <h3>
-                {{ field.name }} <span style="font-weight: normal">({{ className(field) }})</span>
-            </h3>
-
-            {% include [
-                "_partials/fields/#{className(field)|kebab}.twig",
-                "_partials/fields/default.twig"
-            ] with {
-                field,
-                value: entry.fieldValue(field.handle)
-            } only %}
-        </article>
+        {% include '_partials/field-output.twig' with {
+            field,
+            value: entry.fieldValue(field.handle)
+        } only %}
 
     {% endfor %}
 {% endfor %}

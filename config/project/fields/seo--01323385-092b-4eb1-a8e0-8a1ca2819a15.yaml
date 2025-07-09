@@ -95,7 +95,7 @@ settings:
                               - craft\fieldlayoutelements\CustomField
                             1:
                               - handle
-                              - seoImage
+                              - image
                             2:
                               - label
                               - Image
@@ -113,13 +113,13 @@ settings:
                               - 50
                             10:
                               - dateAdded
-                              - '2025-07-09T08:59:03+00:00'
+                              - '2025-07-09T09:24:38+00:00'
                             11:
                               - uid
-                              - a1cc0ece-d34d-419d-8c69-fbf6ee293124
+                              - 7d8c6fc4-988e-4674-83ae-48fce28e6338
                             14:
                               - fieldUid
-                              - 8a2bd2fd-1bea-4875-a162-433f365b81eb # Role Image
+                              - 1b74bdc6-e3c9-4d27-a091-a7950e0f427a # One Image
             3:
               - cardThumbAlignment
               - end

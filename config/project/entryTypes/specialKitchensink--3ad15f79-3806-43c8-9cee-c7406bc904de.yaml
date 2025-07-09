@@ -72,23 +72,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-07-09T08:31:21+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 032f75df-ef9b-419e-93d5-6151414d82ac # Country
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 48039792-a2dd-4987-9689-c1491a7bdbd4
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2025-07-09T08:34:33+00:00'
             editCondition: null
             elementCondition: null
@@ -104,7 +87,41 @@ fieldLayouts:
             uid: 6d624b7a-5243-422d-a080-aed6057209d8
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            dateAdded: '2025-07-09T08:31:21+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 032f75df-ef9b-419e-93d5-6151414d82ac # Country
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48039792-a2dd-4987-9689-c1491a7bdbd4
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-07-09T09:38:17+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ecf74218-9d59-4658-9b9e-1de8c69884e4 # Email
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a8087dc-9174-4f22-b545-2f11cdb2538c
+            userCondition: null
+            warning: null
+            width: 50
           -
             dateAdded: '2025-07-09T08:43:05+00:00'
             editCondition: null
@@ -121,7 +138,7 @@ fieldLayouts:
             uid: 1d91ca78-c0c4-4eb9-bce2-7dd8f3c78080
             userCondition: null
             warning: null
-            width: 100
+            width: 50
         name: 'Special fields'
         uid: 6967142d-4d6c-4447-8271-2e6dc5e88307
         userCondition: null

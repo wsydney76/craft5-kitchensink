@@ -1,0 +1,13 @@
+<article>
+    <h3>
+        {{ field.name }} <span style="font-weight: normal">({{ className(field) }})</span>
+    </h3>
+
+    {% include [
+        "_partials/fields/#{className(field)|kebab}.twig",
+        "_partials/fields/default.twig"
+    ] with {
+        field,
+        value
+    } only %}
+</article>

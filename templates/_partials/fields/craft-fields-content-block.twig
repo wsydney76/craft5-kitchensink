@@ -1,0 +1,9 @@
+
+{% for field in value.fieldLayout.customFields %}
+
+    {% include '_partials/field-output.twig' with {
+    	field,
+        value: value.fieldValue(field.handle)
+    } only %}
+
+{% endfor %}

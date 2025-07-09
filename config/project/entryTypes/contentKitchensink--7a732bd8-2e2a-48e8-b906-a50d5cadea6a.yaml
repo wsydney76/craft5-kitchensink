@@ -122,65 +122,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            dateAdded: '2025-07-07T19:13:49+00:00'
-            elementCondition: null
-            heading: Special
-            type: craft\fieldlayoutelements\Heading
-            uid: b17192b6-3866-4f53-ab7f-1eaa35617d57
-            userCondition: null
-          -
-            dateAdded: '2025-07-07T15:03:52+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: ecf74218-9d59-4658-9b9e-1de8c69884e4 # Email
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 390b74f3-cc04-4f40-a5e7-a5b53cc874bb
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2025-07-08T01:18:04+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: ec62ed85-ce37-48ad-9e54-db7f2cf167f6 # Plaintext Multi Lines
-            handle: markdown
-            includeInCards: false
-            instructions: 'Simulating a markdown preview via template UI element.'
-            label: Markdown
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 4f15be97-760f-4f9a-a3c5-e6be2cf917a3
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            dateAdded: '2025-07-08T01:18:50+00:00'
-            elementCondition: null
-            template: _cp/markdown.twig
-            templateMode: site
-            type: craft\fieldlayoutelements\Template
-            uid: e6b6291a-a251-4d72-9fb2-e8907b3cbdb2
-            userCondition: null
-            width: 50
-          -
-            content: "OK, this doesn't make sense in real life, just a demo that template UI elements are refreshed on every draft save."
-            dateAdded: '2025-07-08T01:25:36+00:00'
-            displayInPane: false
-            elementCondition: null
-            type: craft\fieldlayoutelements\Markdown
-            uid: baecbdaa-af0c-4dd8-b609-ba21afa0791b
-            userCondition: null
-            width: 100
         name: Text
         uid: 0664e8cc-dab6-4cd1-9eac-48cef5e57743
         userCondition: null
