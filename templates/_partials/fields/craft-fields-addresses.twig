@@ -1,0 +1,10 @@
+{% set addresses = value.all %}
+
+{% for address in addresses %}
+	<p>
+        <strong>{{ address.title }}</strong><br>
+        {{ address.addressLine1 }}<br>
+        {{ address.addressLine2 }}<br>
+        {{ address.countryCode }} {{ address.postalCode }} {{ address.locality }}
+    </p>
+{% endfor %}

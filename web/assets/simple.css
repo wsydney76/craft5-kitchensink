@@ -575,7 +575,7 @@ figure {
 figure > img,
 figure > picture > img {
     display: block;
-    margin-inline: auto;
+    /*margin-inline: auto;*/
 }
 
 figcaption {

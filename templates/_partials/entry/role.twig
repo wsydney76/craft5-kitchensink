@@ -1,0 +1,17 @@
+<h4>
+    {{ entry.rolename }} in {{ entry.title }} ({{ entry.year }})
+</h4>
+{% set image = entry.roleImage.one %}
+
+{% if image %}
+    <figure>
+        {{ image.img({width: 150, height: 150}) }}
+    </figure>
+{% endif %}
+
+<p>
+    {{ entry.productionType.label }}
+    <br>Distributor: {{ entry.distributor }}
+    <br>Production: {{ entry.production }}
+    <br>Director: {{ entry.director }}
+</p>

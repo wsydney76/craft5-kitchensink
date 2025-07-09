@@ -3,13 +3,14 @@
     'matrixKitchensink',
     'richTextKitchensink',
     'relationsKitchensink'
-]).all %}
+]).orderBy('title')
+.all %}
 
 <h2>Kitchen Sinks</h2>
 
 <ul>
     {% for entry in entries %}
-    	<li>
+        <li>
             {{ entry.link }}<br>
             {{ entry.section.name }}<br>
             <a href="{{ entry.cpEditUrl }}">Edit</a>

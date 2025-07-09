@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 3bb9c2ce-e8f4-43f8-ab39-f0b01bc48cc0 # Page
-handle: post
+    uid: 3ad15f79-3806-43c8-9cee-c7406bc904de # Special Kitchensink
+handle: specialKitschensink
 maxAuthors: 1
-name: Post
+name: 'Special Kitschensink'
 previewTargets:
   -
     __assoc__:
@@ -23,6 +23,6 @@ siteSettings:
   a4f2973e-4934-46f7-af6d-b72af78abade: # Primary
     enabledByDefault: true
     hasUrls: true
-    template: _entries/post
-    uriFormat: 'post/{slug}'
+    template: _entries/kitchensink/index.twig
+    uriFormat: 'kitschensink/{slug}'
 type: channel

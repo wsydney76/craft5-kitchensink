@@ -1,0 +1,129 @@
+columnSuffix: null
+handle: properties
+instructions: null
+name: Properties
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 79da08d1-cce0-41fb-ad52-4f8ce7e7eac7
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 98514163-1866-45f0-a413-a0c5ed1258ed
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - width
+                            2:
+                              - label
+                              - Width
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-07-09T08:50:10+00:00'
+                            11:
+                              - uid
+                              - 113dd291-7369-41f5-89e6-ef53df8b7728
+                            14:
+                              - fieldUid
+                              - e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - height
+                            2:
+                              - label
+                              - Height
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-07-09T08:50:10+00:00'
+                            11:
+                              - uid
+                              - 2da84863-77bb-41c3-b47f-71fd77c4be70
+                            14:
+                              - fieldUid
+                              - e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - weight
+                            2:
+                              - label
+                              - Weight
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-07-09T08:50:10+00:00'
+                            11:
+                              - uid
+                              - 878a4732-b611-4c3d-bfd9-b28d15be2197
+                            14:
+                              - fieldUid
+                              - e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: inline
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

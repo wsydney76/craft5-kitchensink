@@ -147,23 +147,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-07-07T19:13:49+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: b7665acd-fd6e-4156-938a-fd03b9de5f3d # JSON Field
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d1a6beff-4d9c-42a3-9e34-c9d81a76463c
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2025-07-08T01:18:04+00:00'
             editCondition: null
             elementCondition: null
@@ -587,47 +570,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 25
-          -
-            dateAdded: '2025-07-07T15:35:55+00:00'
-            elementCondition: null
-            heading: Special
-            type: craft\fieldlayoutelements\Heading
-            uid: d0446cd9-f128-486d-af9c-87c89f214939
-            userCondition: null
-          -
-            dateAdded: '2025-07-07T15:35:55+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 032f75df-ef9b-419e-93d5-6151414d82ac # Country
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: eca41c21-f6d8-465a-96c7-e159dfc0f227
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            dateAdded: '2025-07-07T15:37:17+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 171725ac-6000-448e-ae63-0ff45e94a624 # Icon
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 2cd43fc2-7cb4-4ee6-8013-f06de2d10b8d
-            userCondition: null
-            warning: null
-            width: 50
         name: 'Single Selects'
         uid: e8a133d3-c748-4feb-9a27-4f55d01512fc
         userCondition: null

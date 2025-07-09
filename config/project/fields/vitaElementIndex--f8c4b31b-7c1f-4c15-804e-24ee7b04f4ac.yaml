@@ -1,6 +1,6 @@
 columnSuffix: null
 handle: vitaElementIndex
-instructions: null
+instructions: 'Enables all features of an element index, like searching, sorting, customize columns, inline editing'
 name: 'Vita - Element Index'
 searchable: false
 settings:

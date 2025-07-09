@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 3bb9c2ce-e8f4-43f8-ab39-f0b01bc48cc0 # Post
+    uid: 3bb9c2ce-e8f4-43f8-ab39-f0b01bc48cc0 # Page
 handle: home
 maxAuthors: 1
 name: Home

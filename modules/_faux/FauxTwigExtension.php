@@ -22,6 +22,7 @@
 
 namespace modules\_faux;
 
+use craft\elements\Address;
 use craft\elements\Asset;
 use craft\elements\Entry;
 use craft\web\twig\variables\Paginate;
@@ -49,6 +50,7 @@ class FauxTwigExtension extends AbstractExtension implements GlobalsInterface
             // Craft Elements
             'image' => new Asset(),
             'block' => new Entry(),
+            'address' => new Address(),
 
             // Collections (Query results)
             'entries' => new Collection(),

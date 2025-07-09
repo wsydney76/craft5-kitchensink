@@ -1,0 +1,60 @@
+color: null
+description: null
+fieldLayouts:
+  72603d36-e238-4e23-b760-aa618111f7db:
+    cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:af47bb3d-c439-48b6-a210-9b944ad1b0a4'
+      - 'layoutElement:106846a3-e9b5-4fef-8d08-ed997dab81c8'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-08T19:58:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ec62ed85-ce37-48ad-9e54-db7f2cf167f6 # Plaintext Multi Lines
+            handle: quote
+            includeInCards: true
+            instructions: null
+            label: Quote
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af47bb3d-c439-48b6-a210-9b944ad1b0a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-08T19:58:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: cite
+            includeInCards: true
+            instructions: null
+            label: Cite
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 106846a3-e9b5-4fef-8d08-ed997dab81c8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 940399e4-25a4-4b82-bcd5-d24da1def00c
+        userCondition: null
+handle: quote
+hasTitleField: false
+icon: quote-left
+name: Quote
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

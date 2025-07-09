@@ -16,6 +16,11 @@ settings:
         -
           - uid
           - 2385b31e-523f-4c46-b312-fb94954e8e77 # Image
+    -
+      __assoc__:
+        -
+          - uid
+          - 40ecbe6a-e751-409c-94a5-bd88eaf5f9ed # Quote
   expandEntryButtons: true
   fullGraphqlData: false
   parseEmbeds: false
