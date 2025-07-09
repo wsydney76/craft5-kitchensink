@@ -15,4 +15,5 @@ Inspired by the kitchen sink example in [Kirby 5 playground](https://github.com/
 * Run `bash setup/install <projectname> <username> <password>` (or follow the included steps manually)
 
 Optionally run `ddev craft db/restore setup/seed.sql.zip` to seed the project with example (nonsense) content.
+This will create a user with the credentials `admin/craft5-kitchensink`.
 
