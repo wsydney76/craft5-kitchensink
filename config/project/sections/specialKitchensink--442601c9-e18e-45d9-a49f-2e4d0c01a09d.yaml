@@ -3,9 +3,9 @@ enableVersioning: true
 entryTypes:
   -
     uid: 3ad15f79-3806-43c8-9cee-c7406bc904de # Special Kitchensink
-handle: specialKitschensink
+handle: specialKitchensink
 maxAuthors: 1
-name: 'Special Kitschensink'
+name: 'Special Kitchen Sink'
 previewTargets:
   -
     __assoc__:

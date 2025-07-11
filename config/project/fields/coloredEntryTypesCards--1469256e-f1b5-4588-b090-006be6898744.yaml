@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: coloredEntryTypesCards
+instructions: null
+name: 'Colored Entry Types - Cards'
+searchable: false
+settings:
+  createButtonLabel: 'New block'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 95d19936-609a-40a5-9333-be1db535f48e # Blue
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - da648d5f-18af-41e9-b835-adbc8b8195bb # Green
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 643ea012-13b6-4182-990b-a0c939859e25 # Red
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

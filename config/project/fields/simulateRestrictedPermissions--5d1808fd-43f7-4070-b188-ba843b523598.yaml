@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: simulateRestrictedPermissions
+instructions: "This is used by the 'Conditions' demo, to demonstrate user conditions"
+name: 'Simulate restricted permissions'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

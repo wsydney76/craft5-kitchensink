@@ -5,7 +5,7 @@ entryTypes:
     uid: 23101e1c-bf9a-4c7d-8cb5-4710a69d5261 # Matrix Kitchensink
 handle: matrixKitchensink
 maxAuthors: 1
-name: 'Matrix Kitchensink'
+name: 'Matrix Kitchen Sink'
 previewTargets:
   -
     __assoc__:

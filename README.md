@@ -96,3 +96,9 @@ With nested entries
 ![Special Fields](_screenshots/special-fields.jpg)
 
 ![Special Fields - Content Block](_screenshots/special-contentblock.jpg)
+
+![Special Fields - Conditionals](_screenshots/special-conditionals.jpg)
+
+![Special Fields - Colors/Tabs](_screenshots/special-colors.jpg)
+
+![Special Fields - Generated fields](_screenshots/special-generated-fields.jpg)

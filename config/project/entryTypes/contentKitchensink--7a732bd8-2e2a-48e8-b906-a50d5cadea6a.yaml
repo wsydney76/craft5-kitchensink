@@ -3,6 +3,8 @@ description: 'Fields that are stored in the content JSON column.'
 fieldLayouts:
   68c18515-5bfb-43d8-886b-3c0fae3171cd:
     cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:6b32e0a8-d7b2-487a-9a29-d883755afe23'
     tabs:
       -
         elementCondition: null
@@ -43,7 +45,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false

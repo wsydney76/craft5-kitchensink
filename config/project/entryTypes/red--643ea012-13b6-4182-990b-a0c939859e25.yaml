@@ -1,0 +1,53 @@
+color: red
+description: null
+fieldLayouts:
+  06d47cdd-b1f3-47a8-bad1-266c3c99890e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-07-11T08:27:31+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'The red title'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b8cdd4a8-5103-499c-92d9-bd79cee370d3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e865174e-4943-4b2c-9de0-ac78cd1c215a
+        userCondition: null
+handle: red
+hasTitleField: true
+icon: bell
+name: Red
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

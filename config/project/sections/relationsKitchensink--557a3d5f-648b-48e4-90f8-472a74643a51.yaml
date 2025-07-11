@@ -5,7 +5,7 @@ entryTypes:
     uid: 26e23efd-dbc9-4c03-97bd-0da742e7674f # Relations Kitchensink
 handle: relationsKitchensink
 maxAuthors: 1
-name: 'Relations Kitchensink'
+name: 'Relations Kitchen Sink'
 previewTargets:
   -
     __assoc__:

@@ -3,6 +3,14 @@ description: null
 fieldLayouts:
   f6569f7a-7ad5-41c9-937e-e5f8f7667da1:
     cardThumbAlignment: end
+    cardView:
+      - 'generatedField:91c655e5-a50e-4b09-aaa4-afc6aa5c05ab'
+    generatedFields:
+      -
+        handle: videoData
+        name: 'Video Data'
+        template: 'Runtime: {videoRuntime} min., Dimensions: {videoWidth}x{videoHeight}px'
+        uid: 91c655e5-a50e-4b09-aaa4-afc6aa5c05ab
     tabs:
       -
         elementCondition: null
@@ -189,7 +197,7 @@ fieldLayouts:
             includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
+            providesThumbs: true
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -225,6 +233,295 @@ fieldLayouts:
             userCondition: null
         name: 'Content Block'
         uid: ff48413a-0f80-43ae-a900-6c16c363eebf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-11T07:43:57+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7fa57b99-5a49-4f9c-861a-718bdf911ebd # Show CTA
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1423984f-8ff4-4042-97e7-d9584c1f4aee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T07:43:57+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7fa57b99-5a49-4f9c-861a-718bdf911ebd # Show CTA
+                  layoutElementUid: 1423984f-8ff4-4042-97e7-d9584c1f4aee
+                  uid: f03a9f14-ae9c-43fb-a8f1-98660c0fa14c
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: ec62ed85-ce37-48ad-9e54-db7f2cf167f6 # Plaintext Multi Lines
+            handle: ctaText
+            includeInCards: false
+            instructions: ' '
+            label: 'CTA Text'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 468d3e69-65e2-47b3-bbe2-e503f219762c
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-07-11T07:45:37+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7fa57b99-5a49-4f9c-861a-718bdf911ebd # Show CTA
+                  layoutElementUid: 1423984f-8ff4-4042-97e7-d9584c1f4aee
+                  uid: 3dc58e33-00dd-417b-b328-e46982dad897
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 0ffb44ee-5128-454b-9a89-eb8f3203493c # Internal Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf91275f-e159-45e1-a904-fccaa697bc90
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-07-11T07:49:34+00:00'
+            dismissible: false
+            elementCondition: null
+            style: warning
+            tip: 'Hidden fields may still have content, so check the condition in your templates.'
+            type: craft\fieldlayoutelements\Tip
+            uid: da315837-9537-4ff3-83fa-6e78ae902bfa
+            userCondition: null
+          -
+            dateAdded: '2025-07-11T08:01:23+00:00'
+            elementCondition: null
+            heading: 'User Conditions'
+            type: craft\fieldlayoutelements\Heading
+            uid: ba2959b5-ebdc-4d48-b914-306873783acf
+            userCondition: null
+          -
+            content: "There are no additional users in a Craft SOLO project, so play with the 'Simulate restricted permissions' toggle in your user profile to see the effect."
+            dateAdded: '2025-07-11T08:01:23+00:00'
+            displayInPane: true
+            elementCondition: null
+            type: craft\fieldlayoutelements\Markdown
+            uid: 8455c672-76a1-451d-900c-1ef84ed3f637
+            userCondition: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T08:01:23+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: invisibleText
+            includeInCards: false
+            instructions: null
+            label: 'Invisible for restricted users'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0697c203-28c0-446c-b1b3-a2e2d49584fa
+            userCondition:
+              class: craft\elements\conditions\users\UserCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 5d1808fd-43f7-4070-b188-ba843b523598 # Simulate restricted permissions
+                  layoutElementUid: 5483bab2-ce9b-444e-bd59-81a51f12f63a
+                  uid: f2d42272-6ae7-4f7a-a241-74842be779c1
+                  value: false
+              elementType: craft\elements\User
+              fieldContext: global
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T08:07:12+00:00'
+            editCondition:
+              class: craft\elements\conditions\users\UserCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 5d1808fd-43f7-4070-b188-ba843b523598 # Simulate restricted permissions
+                  layoutElementUid: 5483bab2-ce9b-444e-bd59-81a51f12f63a
+                  uid: 273d059d-1835-423f-927a-e07a430a0edd
+                  value: false
+              elementType: craft\elements\User
+              fieldContext: global
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: notEditableText
+            includeInCards: false
+            instructions: null
+            label: 'Not editable for restricted users'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32010df5-edf4-4b69-addc-9a9537b30aba
+            userCondition: null
+            warning: null
+            width: 100
+        name: Conditionals
+        uid: c2e1083b-e261-4d60-9ef3-c2f8cf21d427
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-11T08:37:03+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'Enhance entry types with colors and tabs.'
+            type: craft\fieldlayoutelements\Tip
+            uid: e8cb9c1f-3e23-42c7-acbd-8a1d7370e361
+            userCondition: null
+          -
+            dateAdded: '2025-07-11T08:29:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c9506648-19ce-40d1-bdcc-b8ece806360e # Colored Entry Types - Inline
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2c720a0-9b7d-4c6e-ae77-0711ee05a3fc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T08:30:52+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1469256e-f1b5-4588-b090-006be6898744 # Colored Entry Types - Cards
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f16a636-3978-47b4-a07c-6aaa0dd11f39
+            userCondition: null
+            warning: null
+            width: 100
+        name: Colors/Tabs
+        uid: 6c72306e-9104-4602-a783-eb80f095e8df
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            content: "Generated field values are stored on every save, using an object twig template, in this case:\r\n\r\n`Runtime: {videoRuntime} min., Dimensions: {videoWidth}x{videoHeight}px`\r\n\r\nCan be displayed in edit form via a template UI element."
+            dateAdded: '2025-07-11T09:13:01+00:00'
+            displayInPane: true
+            elementCondition: null
+            type: craft\fieldlayoutelements\Markdown
+            uid: bc867403-3fb2-4262-a1f5-fb855a643554
+            userCondition: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T08:53:28+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e73d4b9a-308e-447b-907f-e29ba99f8df7 # Plaintext Single Line
+            handle: videoRuntime
+            includeInCards: false
+            instructions: 'Format 1:30'
+            label: 'Video Runtime'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d3f8b72-ae59-4f03-ba38-8e81373d9c6a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-11T08:53:28+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5eff8f-7256-4dee-b7e2-dc8702278055 # Integer, min 0
+            handle: videoWidth
+            includeInCards: false
+            instructions: 'in px'
+            label: 'Video Width'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78b4ff5a-cfcf-45e0-b79a-f5e64ddd0b12
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-11T08:53:28+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3f5eff8f-7256-4dee-b7e2-dc8702278055 # Integer, min 0
+            handle: videoHeight
+            includeInCards: false
+            instructions: 'in px'
+            label: 'Video Height'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83efde55-3140-42bd-b4c8-c2ad0f2923d4
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-11T08:56:14+00:00'
+            elementCondition: null
+            template: _cp/video-data.twig
+            templateMode: site
+            type: craft\fieldlayoutelements\Template
+            uid: 97675a53-476e-41cb-94a6-9e05d19c4a6c
+            userCondition: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T09:14:40+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'Use a generated field for a more user friendly card attribute.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 534bc9e5-fa6f-49f3-84bc-9fb4e6904210
+            userCondition: null
+        name: 'Generated Fields'
+        uid: 81a10d98-67ea-46b0-97bd-30480f8b2d75
         userCondition: null
 handle: specialKitchensink
 hasTitleField: true

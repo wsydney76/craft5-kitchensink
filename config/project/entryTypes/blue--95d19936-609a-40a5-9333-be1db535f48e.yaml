@@ -1,0 +1,116 @@
+color: blue
+description: null
+fieldLayouts:
+  60f65639-23e5-4999-a258-dce59436425d:
+    cardThumbAlignment: start
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-07-11T08:25:22+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: 'The blue title'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7e3fbc79-151f-4174-8c2e-f67734ac0731
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-11T08:39:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ec62ed85-ce37-48ad-9e54-db7f2cf167f6 # Plaintext Multi Lines
+            handle: description
+            includeInCards: false
+            instructions: ' '
+            label: Description
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 84112c7d-f12a-4572-af87-db6fb83fac76
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ec16ac2b-03fe-4771-82a2-62b7e3f56646
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-11T08:39:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 91a71db5-2a9e-461c-ab92-fb650a4a960f # Properties
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19005c16-9bef-4c54-aaaf-9fa05f357951
+            userCondition: null
+            warning: null
+            width: 100
+        name: Data
+        uid: e3ed83d2-7680-43ef-bf38-de992242ecaf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-07-11T08:43:15+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1b74bdc6-e3c9-4d27-a091-a7950e0f427a # One Image
+            handle: image
+            includeInCards: false
+            instructions: null
+            label: Image
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef44c3c3-6aa9-41ec-a9f3-433fcf0a8716
+            userCondition: null
+            warning: null
+            width: 100
+        name: Media
+        uid: dd70a715-5cbe-494b-849d-fdba79d757c9
+        userCondition: null
+handle: blue
+hasTitleField: true
+icon: paragraph
+name: Blue
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

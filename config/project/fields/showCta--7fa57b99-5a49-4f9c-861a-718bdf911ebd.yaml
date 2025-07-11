@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: showCta
+instructions: null
+name: 'Show CTA'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: 'Show Call to Action fields'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

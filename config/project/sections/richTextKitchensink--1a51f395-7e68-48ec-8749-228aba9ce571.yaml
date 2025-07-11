@@ -5,7 +5,7 @@ entryTypes:
     uid: dba2e369-ab3b-463c-b1ce-854c36a34e66 # Rich Text Kitchensink
 handle: richTextKitchensink
 maxAuthors: 1
-name: 'Rich Text Kitchensink'
+name: 'Rich Text Kitchen Sink'
 previewTargets:
   -
     __assoc__:

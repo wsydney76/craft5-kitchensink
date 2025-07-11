@@ -16,3 +16,20 @@
 
     {% endfor %}
 {% endfor %}
+
+{% set generatedFields = entry.type.fieldLayout.generatedFields %}
+
+{% if generatedFields %}
+    {% for field in generatedFields %}
+        <article>
+            <h3>
+                {{ field.name }} <span style="font-weight: normal">(generated field)</span>
+            </h3>
+            <p>
+                {{ entry.generatedFieldValues[field.handle] }}
+
+            </p>
+        </article>
+    {% endfor %}
+
+{% endif %}
