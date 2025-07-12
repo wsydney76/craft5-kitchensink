@@ -1,0 +1,25 @@
+{% extends "_layouts/main.twig" %}
+ {% set entry = craft.app.entries.entryById(craft.app.request.param('id')) %}
+{% if not entry %}
+    {% exit 404 %}
+{% endif %}
+
+{% block content %}
+
+    {% for field in entry.type.fieldLayout.customFields %}
+        <article>
+            <h2>
+                {{ field.name }}
+            </h2>
+            {% set value = entry.fieldValue(field.handle) %}
+            {% if value is object %}
+                {% if className(value) ends with 'Query' %}
+                    {% set value = value.all %}
+                {% endif %}
+            {% endif %}
+            
+            {{ dump(value) }}
+            
+        </article>
+    {% endfor %}
+{% endblock %}

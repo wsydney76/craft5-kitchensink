@@ -8,6 +8,9 @@ May also serve as presentation material for Craft CMS 5, showcasing the capabili
 
 Inspired by the kitchen sink example in [Kirby 5 playground](https://github.com/wsydney76/kirby5-playground).
 
+Frontend/Live Preview simply outputs the field values, styling provided by [Simple CSS](https://simplecss.org/).
+There is also a `Dump` preview target that dumps Craft's raw field value.
+
 ## DDEV Installation
 
 * Clone repository
