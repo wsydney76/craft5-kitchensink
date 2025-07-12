@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Run garbage collection
+ddev craft gc
+
 # Delete all but the most recent revision
 ddev craft utils/prune-revisions --max-revisions=1
 

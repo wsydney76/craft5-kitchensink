@@ -1,0 +1,13 @@
+Label: {{ value.label }} <br>
+Value: {{ value.value }}
+{% if value.color %}
+    <br>Color: {{ value.color }}
+{% endif %}
+{% if value.icon %}
+    <br>Icon: {{ value.icon }}
+{% endif %}
+
+{% if value.icon %}
+    {% set color = value.color ?? '#000000' %}
+    {{ svg("@appicons/#{value.icon}.svg")|attr({fill: color, width: '18px', height: '18px'}) }}
+{% endif %}

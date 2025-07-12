@@ -1,0 +1,10 @@
+{% if value %}
+    <div style="display:inline-block; background-color: {{ value }}; width: 24px; height: 24px; border-radius: 999px">
+        &nbsp;
+    </div>
+    {{ value }}
+{% endif %}
+
+{% if value.label %}
+    {{ value.label }}
+{% endif %}

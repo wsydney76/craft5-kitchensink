@@ -1,0 +1,22 @@
+<table>
+    <thead>
+    <tr>
+        {% for col in field.columns %}
+            <th>
+                {{ col.heading }}
+            </th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+        {% for row in value %}
+        	<tr>
+                {% for col in field.columns %}
+                    <td>
+                        {{ row[col.handle] }}
+                    </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

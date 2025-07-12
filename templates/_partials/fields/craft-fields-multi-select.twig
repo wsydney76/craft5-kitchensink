@@ -1,0 +1,16 @@
+{% for option in value %}
+    <p>
+        Label: {{ option.label }}<br>
+        Value: {{ option.value }}
+        {% if option.color %}
+            <br>Color: {{ option.color }}
+        {% endif %}
+        {% if option.icon %}
+            <br>Icon: {{ option.icon }}
+        {% endif %}
+        {% if option.icon %}
+            {% set color = option.color ?? '#000000' %}
+            {{ svg("@appicons/#{option.icon}.svg")|attr({fill: color, width: '18px', height: '18px'}) }}
+        {% endif %}
+    </p>
+{% endfor %}

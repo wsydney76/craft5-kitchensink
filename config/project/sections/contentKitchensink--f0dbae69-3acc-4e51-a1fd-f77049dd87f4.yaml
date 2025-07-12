@@ -18,6 +18,17 @@ previewTargets:
       -
         - refresh
         - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - 'Dump field values'
+      -
+        - urlFormat
+        - 'dump?id={id}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   a4f2973e-4934-46f7-af6d-b72af78abade: # Primary

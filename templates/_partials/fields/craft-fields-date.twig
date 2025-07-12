@@ -1,0 +1,73 @@
+{% if field.settings.showTime %}
+    <table>
+        <tr>
+            <td>
+                Short
+            </td>
+            <td>
+                {{ value|datetime('short') }}
+            </td>
+            <td>
+                {{ value|datetime('short', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Medium
+            </td>
+            <td>
+                {{ value|datetime('medium') }}
+            </td>
+            <td>
+                {{ value|datetime('medium', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Long
+            </td>
+            <td>
+                {{ value|datetime('long') }}
+            </td>
+            <td>
+                {{ value|datetime('long', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+    </table>
+{% else %}
+    <table>
+        <tr>
+            <td>
+                Short
+            </td>
+            <td>
+                {{ value|date('short') }}
+            </td>
+            <td>
+                {{ value|date('short', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Medium
+            </td>
+            <td>
+                {{ value|date('medium') }}
+            </td>
+            <td>
+                {{ value|date('medium', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Long
+            </td>
+            <td>
+                {{ value|date('long') }}
+            </td>
+            <td>
+                {{ value|date('long', 'Europe/Berlin', 'de') }}
+            </td>
+        </tr>
+    </table>
+{% endif %}

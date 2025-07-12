@@ -1,0 +1,35 @@
+<table>
+    <tr>
+        <td>
+            Short
+        </td>
+        <td>
+            {{ value|time('short') }}
+        </td>
+        <td>
+            {{ value|time('short', 'Europe/Berlin', 'de') }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Medium
+        </td>
+        <td>
+            {{ value|time('medium') }}
+        </td>
+        <td>
+            {{ value|time('medium', 'Europe/Berlin', 'de') }}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Long
+        </td>
+        <td>
+            {{ value|time('long') }}
+        </td>
+        <td>
+            {{ value|time('long', 'Europe/Berlin', 'de') }}
+        </td>
+    </tr>
+</table>

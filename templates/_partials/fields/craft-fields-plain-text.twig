@@ -1,0 +1,5 @@
+{% if field.settings.code %}
+    <pre>{{ value }}</pre>
+{% else %}
+    {{ value|md|purify }}
+{% endif %}
