@@ -104,4 +104,6 @@ With nested entries
 
 ![Special Fields - Colors/Tabs](_screenshots/special-colors.jpg)
 
+![Special Fields - Custom](_screenshots/special-custom.jpg)
+
 ![Special Fields - Generated fields](_screenshots/special-generated-fields.jpg)

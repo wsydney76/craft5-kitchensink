@@ -1,0 +1,11 @@
+columnSuffix: null
+handle: selectedSiteGroup
+instructions: null
+name: 'Site Group'
+searchable: false
+settings:
+  addAllOption: true
+  configObjectType: siteGroup
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\ConfigObject

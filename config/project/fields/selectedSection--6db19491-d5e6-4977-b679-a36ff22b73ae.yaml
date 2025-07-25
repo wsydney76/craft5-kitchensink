@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: selectedSection
+instructions: null
+name: Section
+searchable: false
+settings:
+  configObjectType: section
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\ConfigObject

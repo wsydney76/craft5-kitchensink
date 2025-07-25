@@ -1,0 +1,11 @@
+columnSuffix: null
+handle: selectedVolume
+instructions: null
+name: Volume
+searchable: false
+settings:
+  addAllOption: true
+  configObjectType: volume
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\ConfigObject

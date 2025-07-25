@@ -1,0 +1,9 @@
+{% set image = entry.image.one %}
+{% if image %}
+    <div>
+        Shown in site: {{ entry.selectedSite ?? 'all' }}
+    </div>
+    <figure style="margin-bottom: 48px">
+        {{ image.img({width: 250}) }}
+    </figure>
+{% endif %}

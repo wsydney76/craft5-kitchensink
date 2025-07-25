@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: siteSpecificImages
+instructions: null
+name: 'Site specific Images'
+searchable: false
+settings:
+  createButtonLabel: 'New image'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - ae03b1b1-35ac-4467-a646-2393c3ac79d3 # Site specific Images
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

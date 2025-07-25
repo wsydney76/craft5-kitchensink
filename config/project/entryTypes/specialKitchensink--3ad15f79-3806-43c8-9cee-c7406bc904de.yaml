@@ -443,6 +443,106 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2025-07-25T17:41:52+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: "A 'Config Object' custom field, that lets users select from various configuration objects\r\n\r\nFor example, the 'Site' option can be used to select on which site a matrix block should be displayed, enabling the option to show site specific images without setting up different entry types, or forcing the user to 'translate' every single image."
+            type: craft\fieldlayoutelements\Tip
+            uid: c8446664-b826-44fc-b3ba-9799bec87f0d
+            userCondition: null
+          -
+            dateAdded: '2025-07-25T17:25:45+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2c1558b1-bf26-4432-b3db-a12b6c2100a2 # Site Group
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d03fe77-d9d6-4aa5-9dc3-4353b8bd2f36
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-25T17:03:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 608174e3-baa2-45a7-b8a5-cdcace6fe6d3 # Site
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d76e7ed-5d12-47ca-89a4-e6d25d957472
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-25T17:23:05+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6db19491-d5e6-4977-b679-a36ff22b73ae # Section
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8bb93d98-9f0f-4653-81e5-6f80276c22e9
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-25T17:24:08+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3ddbab4f-e6d7-4bf1-8380-c258378bb7c0 # Volume
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64b2303a-6df9-4039-bcaa-d3ceaf41ea21
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-07-25T17:44:25+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1ac01589-ca75-4c28-8789-f2a954121601 # Site specific Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 89101f94-6dc8-4093-a33a-63223ea3aad4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Custom
+        uid: c9f2302e-4098-4ac7-a7f8-fc4ebbc9faee
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
             content: "Generated field values are stored on every save, using an object twig template, in this case:\r\n\r\n`Runtime: {videoRuntime} min., Dimensions: {videoWidth}x{videoHeight}px`\r\n\r\nCan be displayed in edit form via a template UI element."
             dateAdded: '2025-07-11T09:13:01+00:00'
             displayInPane: true
