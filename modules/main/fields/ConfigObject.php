@@ -86,7 +86,7 @@ class ConfigObject extends Field implements InlineEditableFieldInterface, Sortab
                 'errors' => $this->getErrors('configObjectType'),
                 'options' => $options,
             ]) .
-            Cp::lightswitchHtml([
+            Cp::lightswitchFieldHtml([
                 'label' => 'Add All Option',
                 'id' => 'addAllOption',
                 'name' => 'addAllOption',
