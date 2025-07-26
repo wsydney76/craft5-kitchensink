@@ -127,22 +127,11 @@ class ConfigObject extends Field implements InlineEditableFieldInterface, Sortab
                 break;
         }
 
-        switch ($this->configObjectType) {
-            case 'siteGroup':
-                $options = collect($options)
-                    ->map(fn($options) => [
-                        'label' => $options->name,
-                        'value' => $options->name,
-                    ]);
-                break;
-            default:
-                $options = collect($options)
-                    ->map(fn($options) => [
-                        'label' => $options->name,
-                        'value' => $options->handle,
-                    ]);
-                break;
-        }
+        $options = collect($options)
+            ->map(fn($options) => [
+                'label' => $options->name,
+                'value' => $options->handle ?? $options->name,
+            ]);
 
         if ($this->addAllOption) {
             $options = $options->prepend([
